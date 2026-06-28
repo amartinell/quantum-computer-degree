@@ -1,0 +1,15 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{Abstract}{ii}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Teoria dei Computer Quantistici}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduzione al Paradigma Quantistico}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Fondamenti Teorici della Computazione Quantistica}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Il Qubit e la Sovrapposizione Quantistica}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}L'Entanglement Quantistico}{2}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Le Porte Logiche Quantistiche}{3}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Vantaggi dei Computer Quantistici}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Limiti e Sfide dei Computer Quantistici}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Confronto Sistemico: Classico vs.\ Quantistico}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Stato dell'Arte e Prospettive Future}{5}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Conclusioni del Capitolo}{6}{section.1.7}%
+\contentsline {chapter}{Ringraziamenti}{8}{chapter*.6}%

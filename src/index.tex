@@ -5,11 +5,13 @@
 \usepackage[T1]{fontenc}
 \usepackage[italian]{babel}
 
-% ── Typography ────────────────────────────────────────────────────────────────
-\usepackage{lmodern}
+% ── Font (Times, standard per tesi accademiche) ───────────────────────────────
+\usepackage{mathptmx}
 \usepackage{microtype}
 \usepackage{setspace}
 \onehalfspacing
+\usepackage{ragged2e}
+\AtBeginDocument{\RaggedRight}
 
 % ── Page Layout ───────────────────────────────────────────────────────────────
 \usepackage[
@@ -23,60 +25,39 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[LE]{\small\textit{Capitolo 1 — Teoria dei Computer Quantistici}}
-\fancyhead[RO]{\small\textit{\nouppercase{\rightmark}}}
+\fancyhead[LE]{\small\itshape\leftmark}
+\fancyhead[RO]{\small\itshape\nouppercase{\rightmark}}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
 
 % ── Math ──────────────────────────────────────────────────────────────────────
 \usepackage{amsmath, amssymb, amsthm}
-\usepackage{braket}          % Dirac notation: \ket{}, \bra{}, \braket{}
+\usepackage{braket}
 \usepackage{physics}
 
 % ── Tables ────────────────────────────────────────────────────────────────────
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{array}
-\usepackage{xcolor}
-\usepackage{colortbl}
 
 % ── Graphics & Figures ────────────────────────────────────────────────────────
 \usepackage{graphicx}
+\usepackage{xcolor}   % necessario per tikz
 \usepackage{tikz}
 \usepackage{quantikz}
 
-% ── Listings (codice) ─────────────────────────────────────────────────────────
+% ── Listings ──────────────────────────────────────────────────────────────────
 \usepackage{listings}
 \usepackage{lstautogobble}
 
-% ── Hyperlinks ────────────────────────────────────────────────────────────────
-\usepackage[
-  colorlinks=true,
-  linkcolor=blue!60!black,
-  citecolor=green!50!black,
-  urlcolor=blue!60!black
-]{hyperref}
-
-% ── Custom Colors ─────────────────────────────────────────────────────────────
-\definecolor{accent}{RGB}{31, 78, 140}
-\definecolor{lightblue}{RGB}{214, 228, 240}
-\definecolor{lightgray}{RGB}{245, 245, 245}
-\definecolor{darkgray}{RGB}{68, 68, 68}
-
-% ── Chapter Style ─────────────────────────────────────────────────────────────
-\usepackage{titlesec}
-\titleformat{\chapter}[display]
-  {\normalfont\Huge\bfseries\color{accent}}
-  {\chaptertitlename\ \thechapter}{20pt}{\Huge}
-\titlespacing*{\chapter}{0pt}{50pt}{40pt}
-
-\titleformat{\section}
-  {\normalfont\Large\bfseries\color{accent}}
-  {\thesection}{1em}{}[\vspace{-6pt}\textcolor{accent}{\rule{\linewidth}{0.6pt}}]
-
-\titleformat{\subsection}
-  {\normalfont\large\bfseries\color{accent!80!black}}
-  {\thesubsection}{1em}{}
+% ── Nota box (semplice bordo, nessun colore) ──────────────────────────────────
+\usepackage{framed}
+\newenvironment{notabox}{%
+  \begin{framed}\noindent\textbf{Nota.}\enspace\ignorespaces
+}{%
+  \end{framed}
+}
 
 % ── Theorem Environments ──────────────────────────────────────────────────────
 \theoremstyle{definition}
@@ -85,350 +66,87 @@
 \theoremstyle{remark}
 \newtheorem{osservazione}{Osservazione}[chapter]
 
-% ── Utility box ───────────────────────────────────────────────────────────────
-\usepackage{tcolorbox}
-\tcbuselibrary{skins, breakable}
-\newtcolorbox{notabox}{
-  colback=lightblue!40, colframe=accent,
-  fonttitle=\bfseries, title=Nota,
-  breakable, left=6pt, right=6pt
-}
+% ── Bibliography ──────────────────────────────────────────────────────────────
+\usepackage[numbers, sort&compress]{natbib}
+
+% ── Hyperlinks (nessun colore, stile pubblicazione) ───────────────────────────
+\usepackage[hidelinks, pdftitle={Computazione Quantistica}, pdfauthor={}]{hyperref}
 
 % ─────────────────────────────────────────────────────────────────────────────
 \begin{document}
 
-% ── Fake front matter for standalone compilation ──────────────────────────────
+% ── Front matter ──────────────────────────────────────────────────────────────
+\pagenumbering{roman}
+
+% Pagina del titolo
+\begin{titlepage}
+  \centering
+
+  \includegraphics[width=4cm]{assets/logo-unicusano.png}\\[0.5cm]
+
+  {\large\bfseries Università degli Studi Niccolò Cusano}\\[0.2cm]
+  {\large Dipartimento di Ingegneria Informatica ed Elettronica}\\[0.1cm]
+  {\large Corso di Laurea in Informatica}
+
+  \vspace{2cm}
+  \rule{\textwidth}{0.6pt}\\[0.4cm]
+  {\LARGE\bfseries Computazione Quantistica:\\[0.3cm]
+  Fondamenti, Architetture e Prospettive Applicative}\\[0.4cm]
+  \rule{\textwidth}{0.6pt}
+
+  \vspace{2cm}
+  \begin{minipage}[t]{0.45\textwidth}
+    \raggedright
+    \textbf{Relatore:}\\
+    Prof. Andrea Orsini\\[0.4cm]
+    \textbf{Correlatore:}\\
+    Prof. -
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.45\textwidth}
+    \raggedleft
+    \textbf{Candidato:}\\
+    Andrea Martinelli\\
+    IN08000305
+  \end{minipage}
+
+  \vfill
+  {\large Anno Accademico 2023--2026}
+\end{titlepage}
+
+% Abstract
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+Sommario
+
+\newpage
+\thispagestyle{empty}
+\vspace*{8cm}
+\begin{center}\itshape A chi ha lottato in silenzio, sperando che qualcuno si accorgesse.\\
+  E a chi, accorgendosi, ha fatto la differenza.\\
+  \end{center}
+
+% Indici
+\tableofcontents
+\listoffigures
+\listoftables
+
+% ── Main matter ───────────────────────────────────────────────────────────────
+\cleardoublepage
 \pagenumbering{arabic}
-\setcounter{chapter}{0}   % chapter 1 will be \chapter → numbered 1
 
-% ═════════════════════════════════════════════════════════════════════════════
-\chapter{Teoria dei Computer Quantistici}
-\label{chap:quantum}
-% ═════════════════════════════════════════════════════════════════════════════
+\input{chapter-1/index}
+% \input{chapter-2/index}
+% \input{chapter-3/index}
 
-\begin{center}
-  \large\textit{Pro e Contro rispetto ai Computer Tradizionali}
-\end{center}
-\vspace{1cm}
+% ── Bibliography ──────────────────────────────────────────────────────────────
+\cleardoublepage
+\bibliographystyle{plainnat}
+\bibliography{references}
 
-% ─────────────────────────────────────────────────────────────────────────────
-\section{Introduzione al Paradigma Quantistico}
-\label{sec:intro}
-% ─────────────────────────────────────────────────────────────────────────────
-
-Negli ultimi anni, il progresso nell'elaborazione delle informazioni ha
-seguito la celebre \textit{Legge di Moore}, che descrive il raddoppio
-approssimativo del numero di transistor per chip ogni due anni. Tuttavia,
-man mano che le dimensioni dei componenti elettronici si avvicinano alla scala
-atomica, i limiti fisici della computazione classica diventano sempre più
-evidenti. In questo contesto emerge il paradigma della
-\textbf{computazione quantistica}, che sfrutta i principi della meccanica
-quantistica --- sovrapposizione, entanglement e interferenza --- per elaborare
-le informazioni in modo radicalmente diverso rispetto ai computer tradizionali.
-
-Un computer classico elabora le informazioni attraverso \textit{bit} binari, che
-possono assumere i valori $0$ o $1$. Al contrario, un computer quantistico
-utilizza i \textbf{qubit} (\textit{quantum bit}), che grazie al principio di
-sovrapposizione possono esistere contemporaneamente in una combinazione di
-$\ket{0}$ e $\ket{1}$ fino al momento della misurazione. Questa proprietà,
-combinata con l'entanglement quantistico e le operazioni di interferenza,
-conferisce ai computer quantistici un potenziale computazionale enormemente
-superiore per determinate classi di problemi.
-
-% ─────────────────────────────────────────────────────────────────────────────
-\section{Fondamenti Teorici della Computazione Quantistica}
-\label{sec:fondamenti}
-% ─────────────────────────────────────────────────────────────────────────────
-
-\subsection{Il Qubit e la Sovrapposizione Quantistica}
-\label{subsec:qubit}
-
-\begin{definizione}[Qubit]
-  Un \textbf{qubit} è il sistema fisico a due livelli che costituisce l'unità
-  fondamentale di informazione nella computazione quantistica. Il suo stato puro
-  è descritto da un vettore nello spazio di Hilbert $\mathcal{H} \cong \mathbb{C}^2$:
-  \begin{equation}
-    \ket{\psi} = \alpha\ket{0} + \beta\ket{1}, \qquad
-    \alpha, \beta \in \mathbb{C}, \quad |\alpha|^2 + |\beta|^2 = 1.
-    \label{eq:qubit}
-  \end{equation}
-\end{definizione}
-
-I coefficienti $\alpha$ e $\beta$ sono le \textit{ampiezze di probabilità}: una
-misurazione restituisce $0$ con probabilità $|\alpha|^2$ e $1$ con probabilità
-$|\beta|^2$, collassando lo stato in uno dei due vettori base. Geometricamente,
-ogni stato puro di un qubit corrisponde a un punto sulla superficie della
-\textbf{sfera di Bloch} (Figura~\ref{fig:bloch}), parametrizzata da:
-\begin{equation}
-  \ket{\psi} = \cos\frac{\theta}{2}\ket{0} + e^{i\varphi}\sin\frac{\theta}{2}\ket{1},
-  \qquad \theta \in [0,\pi],\ \varphi \in [0, 2\pi).
-\end{equation}
-
-\begin{figure}[ht]
-  \centering
-  \begin{tikzpicture}[scale=1.6]
-    % sphere outline
-    \draw[thick, color=accent] (0,0) circle (1);
-    \draw[dashed, color=accent!50] (-1,0) arc (180:360:1 and 0.3);
-    \draw[color=accent!50] (-1,0) arc (180:0:1 and 0.3);
-    % axes
-    \draw[->, thick] (0,0) -- (0,1.35) node[above] {$\ket{0}$};
-    \draw[->, thick] (0,0) -- (0,-1.35) node[below] {$\ket{1}$};
-    \draw[->, thick] (0,0) -- (1.35,0) node[right] {$y$};
-    \draw[->, thick] (0,0) -- (-0.7,-0.5) node[below left] {$x$};
-    % state vector
-    \draw[->, very thick, color=red!70!black] (0,0) -- (0.55,0.72)
-      node[right] {$\ket{\psi}$};
-    % angles
-    \draw[dashed] (0,0.72) -- (0.55,0.72);
-    \draw[dashed] (0,0) -- (0.55,0.72);
-    \node at (0.15, 0.45) {\small $\theta$};
-    \node at (0.35,-0.1) {\small $\varphi$};
-  \end{tikzpicture}
-  \caption{Rappresentazione geometrica di un qubit sulla sfera di Bloch. I poli
-    nord e sud corrispondono rispettivamente agli stati base $\ket{0}$ e $\ket{1}$.}
-  \label{fig:bloch}
-\end{figure}
-
-\subsection{L'Entanglement Quantistico}
-\label{subsec:entanglement}
-
-\begin{principio}[Entanglement]
-  Due qubit si dicono \textbf{entangled} (intrecciati) se il loro stato
-  composto $\ket{\Psi} \in \mathcal{H}^{\otimes 2}$ non è fattorizzabile come
-  prodotto tensoriale degli stati individuali:
-  $\ket{\Psi} \neq \ket{\psi_1} \otimes \ket{\psi_2}$.
-\end{principio}
-
-Il prototipo di stato entangled è fornito dalla base degli \textbf{stati di Bell}:
-\begin{align}
-  \ket{\Phi^+} &= \frac{1}{\sqrt{2}}\bigl(\ket{00} + \ket{11}\bigr), &
-  \ket{\Phi^-} &= \frac{1}{\sqrt{2}}\bigl(\ket{00} - \ket{11}\bigr), \\
-  \ket{\Psi^+} &= \frac{1}{\sqrt{2}}\bigl(\ket{01} + \ket{10}\bigr), &
-  \ket{\Psi^-} &= \frac{1}{\sqrt{2}}\bigl(\ket{01} - \ket{10}\bigr).
-\end{align}
-
-L'entanglement è la risorsa centrale di algoritmi e protocolli quantistici
-fondamentali quali la teletrasportazione quantistica, la distribuzione
-quantistica delle chiavi (\textit{QKD}) e il \textit{dense coding}.
-Einstein definì il fenomeno con l'espressione
-\textit{``spooky action at a distance''}, ritenendolo inizialmente
-incompatibile con il realismo locale; le disuguaglianze di Bell (1964) e le
-successive verifiche sperimentali hanno confutato tale ipotesi.
-
-\subsection{Le Porte Logiche Quantistiche}
-\label{subsec:porte}
-
-La computazione quantistica si effettua tramite \textbf{porte logiche
-quantistiche}, ovvero trasformazioni unitarie $U \in \mathrm{U}(2^n)$ applicate
-a registri di $n$ qubit. A differenza delle porte classiche, ogni operazione
-quantistica (eccetto la misurazione) è \textit{reversibile}.
-Le porte più importanti su singolo qubit sono:
-
-\begin{equation}
-  H = \frac{1}{\sqrt{2}}\begin{pmatrix}1 & 1 \\ 1 & -1\end{pmatrix}, \quad
-  X = \begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}, \quad
-  T = \begin{pmatrix}1 & 0 \\ 0 & e^{i\pi/4}\end{pmatrix}.
-\end{equation}
-
-La porta a due qubit \textbf{CNOT} è definita da:
-\begin{equation}
-  \mathrm{CNOT} = \begin{pmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\end{pmatrix}.
-\end{equation}
-
-L'insieme $\{H, T, \mathrm{CNOT}\}$ è \textit{universale}: ogni trasformazione
-unitaria può essere approssimata con precisione arbitraria da una composizione
-finita di queste porte (teorema di Solovay--Kitaev). Un esempio di circuito per
-generare lo stato di Bell $\ket{\Phi^+}$ è mostrato di seguito:
-
-\begin{center}
-\begin{quantikz}
-  \lstick{$\ket{0}$} & \gate{H} & \ctrl{1} & \rstick[2]{$\ket{\Phi^+}$} \\
-  \lstick{$\ket{0}$} & \qw      & \targ{}  &
-\end{quantikz}
-\end{center}
-
-% ─────────────────────────────────────────────────────────────────────────────
-\section{Vantaggi dei Computer Quantistici}
-\label{sec:vantaggi}
-% ─────────────────────────────────────────────────────────────────────────────
-
-Il vantaggio computazionale dei sistemi quantistici si manifesta in specifiche
-classi di problemi dove gli algoritmi quantistici offrono un'accelerazione
-\textit{esponenziale} o \textit{polinomiale} rispetto ai migliori algoritmi
-classici noti.
-
-\begin{itemize}
-  \item \textbf{Fattorizzazione e crittografia.}
-    L'\textbf{algoritmo di Shor} (1994) fattorizza un intero $N$ in tempo
-    polinomiale $O((\log N)^3)$, riducendo da esponenziale a polinomiale il
-    costo rispetto ai migliori algoritmi classici. Questo ha implicazioni dirette
-    sulla sicurezza dei sistemi crittografici RSA e ElGamal, basati sulla
-    difficoltà computazionale classica della fattorizzazione.
-
-  \item \textbf{Ricerca non strutturata.}
-    L'\textbf{algoritmo di Grover} (1996) individua un elemento in un database
-    non strutturato di $N$ voci in $O(\sqrt{N})$ valutazioni dell'oracolo,
-    ottenendo uno \textit{speedup} quadratico rispetto alla ricerca classica
-    $O(N)$. Sebbene meno spettacolare della fattorizzazione, questo vantaggio
-    è applicabile a un'ampia classe di problemi.
-
-  \item \textbf{Simulazione quantistica.}
-    Feynman (1982) osservò che i sistemi quantistici sono naturalmente simulati
-    da computer quantistici. La simulazione di molecole e reazioni chimiche con
-    precisione quantomeccanica richiederebbe risorse classiche esponenziali in
-    $n$ (numero di elettroni), ma è affrontabile efficientemente su hardware
-    quantistico. Applicazioni dirette includono la progettazione di farmaci,
-    catalizzatori e materiali per batterie.
-
-  \item \textbf{Ottimizzazione combinatoria.}
-    Algoritmi come \textit{QAOA} (Quantum Approximate Optimization Algorithm) e
-    il \textit{Quantum Annealing} offrono approcci promettenti per problemi
-    NP-difficili. Applicazioni in logistica, finanza e machine learning sono
-    oggetto di ricerca attiva.
-
-  \item \textbf{Crittografia quantistica.}
-    La QKD (\textit{Quantum Key Distribution}), nella sua formulazione BB84
-    (Bennett \& Brassard, 1984), garantisce la sicurezza informazione-teorica
-    della distribuzione delle chiavi: qualsiasi tentativo di intercettazione
-    altera irreversibilmente gli stati trasmessi, rendendosi rilevabile.
-\end{itemize}
-
-% ─────────────────────────────────────────────────────────────────────────────
-\section{Limiti e Sfide dei Computer Quantistici}
-\label{sec:limiti}
-% ─────────────────────────────────────────────────────────────────────────────
-
-Nonostante il loro potenziale rivoluzionario, i computer quantistici presentano
-sfide tecniche e teoriche fondamentali che ne limitano attualmente
-l'applicabilità pratica su larga scala.
-
-\begin{itemize}
-  \item \textbf{Decoerenza quantistica.}
-    I qubit sono estremamente sensibili alle perturbazioni ambientali. La
-    \textbf{decoerenza} --- la perdita della coerenza quantistica per interazione
-    con l'ambiente --- distrugge le sovrapposizioni. I tempi di coerenza $T_1$
-    (rilassamento) e $T_2$ (sfasamento) nei qubit superconduttori tipici sono
-    dell'ordine di $10$--$500\,\mu$s, limitando la profondità dei circuiti
-    eseguibili.
-
-  \item \textbf{Correzione degli errori quantistici (QEC).}
-    I \textit{codici di correzione degli errori quantistici} (codice di
-    superficie, codice di Steane, \ldots) richiedono un elevato \textit{overhead}
-    di qubit fisici per qubit logico. Stime recenti indicano
-    $10^3$--$10^4$ qubit fisici per qubit logico affidabile. I computer attuali
-    operano in regime \textbf{NISQ} (\textit{Noisy Intermediate-Scale Quantum}),
-    privi di correzione degli errori completa.
-
-  \item \textbf{Scalabilità hardware.}
-    I processori superconduttori (IBM, Google) richiedono temperature criogeniche
-    $\sim 15\,\text{mK}$, vicine allo zero assoluto. Le tecnologie alternative
-    (qubit fotonici, trappole ioniche, qubit a spin in azoto vacante, qubit
-    topologici) presentano ciascuna diversi compromessi tra tempo di coerenza,
-    fedeltà delle porte e scalabilità.
-
-  \item \textbf{Programmabilità e stack software.}
-    Lo sviluppo di algoritmi quantistici richiede competenze in meccanica
-    quantistica, complessità computazionale e architettura hardware. I framework
-    attuali (Qiskit, Cirq, PennyLane, Braket) stanno maturando, ma la distanza
-    rispetto all'accessibilità della programmazione classica rimane ampia.
-
-  \item \textbf{Applicabilità circoscritta.}
-    Per la grande maggioranza dei compiti computazionali quotidiani ---
-    elaborazione di testi, database relazionali, navigazione web --- i computer
-    classici rimangono più efficienti e pratici. Il vantaggio quantistico è
-    limitato a specifiche classi di problemi strutturati.
-\end{itemize}
-
-\begin{notabox}
-  Il concetto di \textbf{quantum advantage} (vantaggio quantistico) si riferisce
-  alla dimostrazione che un dispositivo quantistico risolve un problema
-  specifico più velocemente di qualsiasi computer classico noto. La sua
-  dimostrazione sperimentale su problemi di rilevanza pratica rimane una delle
-  sfide aperte più importanti del settore.
-\end{notabox}
-
-% ─────────────────────────────────────────────────────────────────────────────
-\section{Confronto Sistemico: Classico vs.\ Quantistico}
-\label{sec:confronto}
-% ─────────────────────────────────────────────────────────────────────────────
-
-La Tabella~\ref{tab:confronto} sintetizza le principali differenze tra le due
-architetture computazionali.
-
-\begin{table}[ht]
-  \centering
-  \renewcommand{\arraystretch}{1.35}
-  \caption{Confronto tra computer classici e computer quantistici.}
-  \label{tab:confronto}
-  \begin{tabularx}{\textwidth}{>{\bfseries}lXX}
-    \toprule
-    \rowcolor{accent}
-    \color{white}Caratteristica &
-    \color{white}Computer Classico &
-    \color{white}Computer Quantistico \\
-    \midrule
-    Unità base          & Bit ($0$ o $1$)               & Qubit ($\ket{0}$, $\ket{1}$, sovrapposizione) \\
-    \rowcolor{lightgray}
-    Operazioni          & Porte irreversibili            & Trasformazioni unitarie reversibili \\
-    Parallelismo        & Sequenziale / multicore        & Parallelismo quantistico ($2^n$ ampiezze) \\
-    \rowcolor{lightgray}
-    Gestione errori     & Maturissima, affidabile        & In sviluppo (QEC, regime NISQ) \\
-    Cond.\ operative    & Temperatura ambiente           & Criogenica ($\sim 15\,\text{mK}$) \\
-    \rowcolor{lightgray}
-    Applicaz.\ ottimali & Uso generale, I/O, database    & Crittografia, simulazione, ottimiz. \\
-    Maturità tecnol.    & Estremamente matura            & Emergente \\
-    \rowcolor{lightgray}
-    Costi               & Accessibili, scala industriale & Elevati, infrastruttura specializzata \\
-    \bottomrule
-  \end{tabularx}
-\end{table}
-
-% ─────────────────────────────────────────────────────────────────────────────
-\section{Stato dell'Arte e Prospettive Future}
-\label{sec:stato}
-% ─────────────────────────────────────────────────────────────────────────────
-
-Nel 2019, Google ha annunciato di aver raggiunto la \textbf{supremazia
-quantistica} con il processore \textit{Sycamore} da 53 qubit, completando in
-$\sim 200\,\text{s}$ un campionamento casuale di circuiti che richiederebbe
-stimativamente $10\,000$ anni al supercomputer \textit{Summit}. Tale affermazione
-è stata contestata da IBM, che ha proposto algoritmi classici più efficienti per
-lo stesso problema, evidenziando come la definizione di supremazia quantistica
-richieda una precisazione del problema di riferimento.
-
-Nel 2023, IBM ha presentato il processore \textbf{Condor} da $1\,121$ qubit,
-mentre Microsoft ha accelerato lo sviluppo dei qubit topologici basati sui
-fermioni di Majorana, che promettono maggiore resistenza intrínseca alla
-decoerenza. La roadmap di IBM prevede processori con migliaia di qubit logici
-entro il 2030.
-
-Il modello di accesso dominante si sta spostando verso il paradigma
-\textbf{cloud}: IBM Quantum Network, AWS Braket, Google Quantum AI e Azure
-Quantum offrono accesso remoto a processori quantistici reali. Il percorso più
-realistico per le applicazioni nei prossimi cinque-dieci anni è considerato il
-paradigma \textbf{ibrido classico-quantistico}, in cui il computer quantistico
-funge da co-processore acceleratore per specifici sottoproblemi, mentre il
-controllo generale rimane classico.
-
-% ─────────────────────────────────────────────────────────────────────────────
-\section{Conclusioni del Capitolo}
-\label{sec:conclusioni}
-% ─────────────────────────────────────────────────────────────────────────────
-
-La computazione quantistica rappresenta un cambio di paradigma fondamentale,
-non una semplice evoluzione incrementale dei sistemi classici. I suoi vantaggi
-teorici --- accelerazione esponenziale per la fattorizzazione, ricerca,
-simulazione e ottimizzazione --- sono matematicamente dimostrati e
-algoritmicamente fondati. Tuttavia, la distanza tra teoria e implementazione
-hardware rimane considerevole: la decoerenza, gli errori fisici e le difficoltà
-di scalabilità costituiscono ostacoli tecnici genuini e non ancora risolti.
-
-Il futuro prevedibile non vede i computer quantistici \textit{sostituire} quelli
-classici, bensì \textit{affiancarli} in architetture ibride specializzate.
-I capitoli successivi analizzeranno in dettaglio le architetture hardware
-esistenti, gli algoritmi quantistici più rilevanti e le prospettive applicative
-nei settori della crittografia, della farmacologia computazionale e
-dell'intelligenza artificiale.
+% Ringraziamenti
+\chapter*{Ringraziamenti}
+\addcontentsline{toc}{chapter}{Ringraziamenti}
+  A chi mi è stato vicino nei momenti difficili, insegnandomi che parlare è la forma più coraggiosa di forza.
 
 \end{document}

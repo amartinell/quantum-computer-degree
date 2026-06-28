@@ -1,0 +1,49 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Arute et~al.(2019)]{arute2019quantum}
+Frank Arute et~al.
+\newblock Quantum supremacy using a programmable superconducting processor.
+\newblock \emph{Nature}, 574:\penalty0 505--510, 2019.
+
+\bibitem[Bennett and Brassard(1984)]{bennett1984bb84}
+Charles~H. Bennett and Gilles Brassard.
+\newblock Quantum cryptography: Public key distribution and coin tossing.
+\newblock \emph{Proceedings of IEEE International Conference on Computers,
+  Systems and Signal Processing}, pages 175--179, 1984.
+
+\bibitem[Feynman(1982)]{feynman1982simulating}
+Richard~P. Feynman.
+\newblock Simulating physics with computers.
+\newblock \emph{International Journal of Theoretical Physics}, 21\penalty0
+  (6--7):\penalty0 467--488, 1982.
+
+\bibitem[Grover(1996)]{grover1996fast}
+Lov~K. Grover.
+\newblock A fast quantum mechanical algorithm for database search.
+\newblock \emph{Proceedings of the 28th Annual ACM Symposium on Theory of
+  Computing}, pages 212--219, 1996.
+
+\bibitem[Nielsen and Chuang(2010)]{nielsen2010quantum}
+Michael~A. Nielsen and Isaac~L. Chuang.
+\newblock \emph{Quantum Computation and Quantum Information}.
+\newblock Cambridge University Press, Cambridge, 10th anniversary edition,
+  2010.
+
+\bibitem[Preskill(2018)]{preskill2018quantum}
+John Preskill.
+\newblock Quantum computing in the nisq era and beyond.
+\newblock \emph{Quantum}, 2:\penalty0 79, 2018.
+
+\bibitem[Shor(1994)]{shor1994algorithms}
+Peter~W. Shor.
+\newblock Algorithms for quantum computation: Discrete logarithms and
+  factoring.
+\newblock \emph{Proceedings of the 35th Annual Symposium on Foundations of
+  Computer Science}, pages 124--134, 1994.
+
+\end{thebibliography}
