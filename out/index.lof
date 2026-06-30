@@ -2,3 +2,6 @@
 \babel@toc {italian}{}\relax 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Rappresentazione geometrica di un qubit sulla sfera di Bloch. I poli nord e sud corrispondono agli stati base $\ket {0}$ e $\ket {1}$.}}{2}{figure.1.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schema del centro NV nel reticolo cristallino del diamante. L'atomo di azoto sostituisce un carbonio e la lacuna occupa il sito adiacente lungo l'asse $\langle 111 \rangle $.}}{11}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Struttura dei livelli energetici del centro NV$^-$. La transizione ottica a 637\,nm (ZPL, \textit {zero-phonon line}) ecita il tripletto; il \textit {inter-system crossing} (ISC) verso il singoletto $^1A_1$ pompa preferenzialmente la popolazione in $m_s = 0$, abilitando l'inizializzazione ottica del qubit.}}{11}{figure.2.2}%

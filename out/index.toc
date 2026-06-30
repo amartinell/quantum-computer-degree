@@ -12,4 +12,24 @@
 \contentsline {section}{\numberline {1.5}Confronto Sistemico: Classico vs.\ Quantistico}{5}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Stato dell'Arte e Prospettive Future}{5}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Conclusioni del Capitolo}{6}{section.1.7}%
-\contentsline {chapter}{Ringraziamenti}{8}{chapter*.6}%
+\contentsline {chapter}{\numberline {2}Implementazioni Fisiche Differenti e PC Quantistici nel Diamante}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduzione alle Piattaforme Hardware}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Qubit Superconduttori}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Principio fisico}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Architetture e stato dell'arte}{8}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Trappole Ioniche}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Principio fisico}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Prestazioni e limitazioni}{9}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Qubit Fotonici}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Qubit Topologici}{10}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Centri NV nel Diamante}{10}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Struttura e proprietà del centro NV}{10}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Codifica del qubit e struttura dei livelli}{11}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Inizializzazione, controllo e lettura ottica}{11}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Tempi di coerenza e vantaggi operativi}{12}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}Integrazione cryo-CMOS: verso la scalabilità}{13}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.6.6}Qubit multipli e gate entangling nel diamante}{13}{subsection.2.6.6}%
+\contentsline {section}{\numberline {2.7}Applicazioni del Diamante Quantistico}{14}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Confronto Sistematico delle Tecnologie}{14}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Conclusioni del Capitolo}{14}{section.2.9}%
+\contentsline {chapter}{Ringraziamenti}{18}{chapter*.6}%

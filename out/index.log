@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  28 JUN 2026 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  30 JUN 2026 13:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1164,7 +1164,7 @@ Package hyperref Info: Link coloring OFF on input line 76.
 \@outlinefile=\write4
 \openout4 = `index.out'.
 
-<assets/logo-unicusano.png, id=59, 440.64626pt x 456.70625pt>
+<assets/logo-unicusano.png, id=139, 440.64626pt x 456.70625pt>
 File: assets/logo-unicusano.png Graphic file (type png)
 <use assets/logo-unicusano.png>
 Package pdftex.def Info: assets/logo-unicusano.png  used on input line 85.
@@ -1188,24 +1188,57 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
+) [4
+
+])
 \tf@toc=\write5
 \openout5 = `index.toc'.
 
- [4
 
-]
-(/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lof
+[5] (/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lof
+
 Overfull \hbox (1.30513pt too wide) in paragraph at lines 4--4
  [][] [][]\T1/ptm/m/n/12 (-20) Rappresentazione geo-me-tri-ca di un qu-bit sul-
 la sfe-ra di Bloch. I po-li nord e 
+ []
+
+
+Overfull \hbox (5.65157pt too wide) in paragraph at lines 6--6
+ [][] [][]\T1/ptm/m/n/12 (-20) Schema del cen-tro NV nel re-ti-co-lo cri-stal-l
+i-no del dia-man-te. L'a-to-mo di azo- 
+ []
+
+
+Overfull \hbox (0.11299pt too wide) in paragraph at lines 6--6
+ \T1/ptm/m/n/12 (-6) to so-sti-tui-sce un car-bo-nio e la la-cu-na oc-cu-pa il 
+si-to adia-cen-te lun-go l'as-se 
+ []
+
+
+Overfull \hbox (12.98198pt too wide) in paragraph at lines 7--7
+ [][] [][]\T1/ptm/m/n/12 (-20) Struttura dei li-vel-li ener-ge-ti-ci del cen-tr
+o NV$[]$. La tran-si-zio-ne ot-ti-ca a 637nm 
+ []
+
+
+Overfull \hbox (2.23988pt too wide) in paragraph at lines 7--7
+ \T1/ptm/m/n/12 (-20) (ZPL, \T1/ptm/m/it/12 (-20) zero-phonon li-ne\T1/ptm/m/n/
+12 (-20) ) eci-ta il tri-plet-to; il \T1/ptm/m/it/12 (-20) inter-system cros-si
+ng \T1/ptm/m/n/12 (-20) (ISC) ver- 
+ []
+
+
+Overfull \hbox (3.3765pt too wide) in paragraph at lines 7--7
+ \T1/ptm/m/n/12 (-20) so il sin-go-let-to $[]\OML/ztmcm/m/it/12 A[]$ \T1/ptm/m/
+n/12 (-20) pom-pa pre-fe-ren-zial-men-te la po-po-la-zio-ne in $\OML/ztmcm/m/it
+/12 m[] \OT1/ztmcm/m/n/12 = 0$\T1/ptm/m/n/12 (-20) , abi- 
  []
 
 )
 \tf@lof=\write6
 \openout6 = `index.lof'.
 
- [5
+ [6
 
 ]
 (/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lot)
@@ -1213,7 +1246,9 @@ la sfe-ra di Bloch. I po-li nord e
 \openout7 = `index.lot'.
 
 
-[6
+[7
+
+] [8
 
 ] (./chapter-1/index.tex
 Capitolo 1.
@@ -1221,7 +1256,6 @@ Capitolo 1.
 Underfull \vbox (badness 1742) has occurred while \output is active []
 
  [1
-
 
 ]
 Overfull \hbox (0.13501pt too wide) in paragraph at lines 49--54
@@ -1291,12 +1325,299 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\T1/ptm/m/n/12 (+20) Elevati, in-fra-strut-tu-ra spe-cia-
  []
 
-[5]) [6]
-(/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.bbl)
+[5]) (./chapter-2/index.tex [6]
+Capitolo 2.
+
+Package natbib Warning: Citation `divincenzo2000physical' on page 7 undefined o
+n input line 18.
+
 [7
 
+]
+./chapter-2/index.tex:52: Undefined control sequence.
+\hbar ->\protect \hbar  
+                        
+l.52 ...\varphi, \qquad E_J = \frac{\hbar I_0}{2e}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-] [8
+
+Package natbib Warning: Citation `koch2007charge' on page 8 undefined on input 
+line 59.
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 25.10403pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.10403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
+
+[8]
+
+Package natbib Warning: Citation `cirac1995quantum' on page 9 undefined on inpu
+t line 116.
+
+
+Package natbib Warning: Citation `ballance2016highfidelity' on page 9 undefined
+ on input line 124.
+
+
+Package natbib Warning: Citation `knill2001scheme' on page 9 undefined on input
+ line 149.
+
+[9]
+
+Package natbib Warning: Citation `kitaev2003fault' on page 10 undefined on inpu
+t line 168.
+
+
+Overfull \hbox (0.16306pt too wide) in paragraph at lines 177--182
+[]\T1/ptm/m/n/12 (+5) Microsoft ha in-ve-sti-to in-ten-sa-men-te in que-sta di-
+re-zio-ne. Nel 2025 ha an-nun-cia-to una pri- 
+ []
+
+
+Overfull \hbox (0.19112pt too wide) in paragraph at lines 177--182
+\T1/ptm/m/n/12 (+6) ma di-mo-stra-zio-ne di qu-bit to-po-lo-gi-ci con tem-pi di
+ coe-ren-za mi-su-ra-bi-li nel si-ste-ma Ma-jo- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+[]\T1/ptm/m/n/12 Figura 2.1: []Schema del cen-tro NV nel re-ti-co-lo cri-stal-l
+i-no del dia-man-te. L'a-to-mo di azo-to
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 25.10403pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.10403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
+
+[10] [11]
+
+Package natbib Warning: Citation `balasubramanian2009ultralong' on page 12 unde
+fined on input line 346.
+
+
+Overfull \hbox (0.11552pt too wide) in paragraph at lines 347--349
+[]$\OML/ztmcm/m/it/12 T[]$ \T1/ptm/m/n/12 (+17) (\T1/ptm/m/it/12 (+17) free ind
+uction decay\T1/ptm/m/n/12 (+17) ): $\OT1/ztmcm/m/n/12 1$\T1/ptm/m/n/12 (+17) -
+-$\OT1/ztmcm/m/n/12 100 \OML/ztmcm/m/it/12 ^^V[]$\T1/ptm/m/n/12 (+17) , dipende
+nte dalla densità di spin nucleari $[]$C 
+ []
+
+
+Package natbib Warning: Citation `maurer2012room' on page 12 undefined on input
+ line 354.
+
+
+Package natbib Warning: Citation `babaie2026cryogenic' on page 12 undefined on 
+input line 375.
+
+
+Overfull \hbox (0.18282pt too wide) in paragraph at lines 368--376
+\T1/ptm/m/n/12 (+5) fi-col-tà di pa-ral-le-liz-za-zio-ne. Nel feb-bra-io 2026, 
+Qu-Tech (Del-ft Uni-ver-si-ty of Tech-no-lo-gy) 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 25.10403pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.10403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
+
+[12]
+
+Package natbib Warning: Citation `hensen2015loophole' on page 13 undefined on i
+nput line 408.
+
+[13]
+
+Package natbib Warning: Citation `degen2017quantum' on page 14 undefined on inp
+ut line 428.
+
+
+Package natbib Warning: Citation `hensen2015loophole' on page 14 undefined on i
+nput line 434.
+
+
+Overfull \hbox (11.94122pt too wide) in paragraph at lines 478--478
+[]|\T1/ptm/m/n/12 (-20) Supercondutt.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
+[]|\T1/ptm/m/n/12 (+20) Trappola
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
+[]|\T1/ptm/m/n/12 (+20) NV dia-
+ []
+
+
+Overfull \hbox (1.00674pt too wide) in paragraph at lines 478--478
+[]|\T1/ptm/m/n/12 (-20) Amb./UHV| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
+[]|\T1/ptm/m/n/12 (+20) 1--2ms
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
+\T1/ptm/m/n/12 (+20) (amb.)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
+\OML/ztmcm/m/it/12 >$\T1/ptm/m/n/12 (+20) 50ms
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
+[]|\T1/ptm/m/n/12 (+20) 99.0--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
+[]|\T1/ptm/m/n/12 (+20) 99.3--
+ []
+
+
+Overfull \hbox (6.70776pt too wide) in paragraph at lines 478--478
+[]|\T1/ptm/m/n/12 (-20) Locale/Rem.| 
+ []
+
+
+Overfull \hbox (0.59264pt too wide) in paragraph at lines 478--478
+[]|\T1/ptm/m/n/12 (-20) Laser+MW| 
+ []
+
+
+Package natbib Warning: Citation `babaie2026cryogenic' on page 14 undefined on 
+input line 478.
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 25.10403pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.10403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
+
+[14]
+
+Package natbib Warning: Citation `babaie2026cryogenic' on page 15 undefined on 
+input line 505.
+
+)
+Overfull \hbox (0.1571pt too wide) in paragraph at lines 512--140
+[]\T1/ptm/m/n/12 (+2) Il ca-pi-to-lo suc-ces-si-vo esa-mi-ne-rà gli al-go-rit-m
+i quan-ti-sti-ci più ri-le-van-ti e la lo-ro im-ple-men- 
+ []
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 25.10403pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.10403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
+
+[16
+
+]
+(/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.bbl)
+[17
+
+]
+Overfull \hbox (0.10327pt too wide) in paragraph at lines 149--149
+\T1/ptm/m/n/12 (+12) A chi mi è stato vicino nei momenti difficili, insegnandom
+i che presentarsi e parlare è la 
+ []
+
+
+/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex:153:
+ LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153   \newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex:154:
+ LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154   \newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex:156:
+ LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156   \newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex:157:
+ LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157   \newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex:161:
+ LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161   \newline
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package natbib Warning: There were undefined citations.
+
+[18
 
 ]
 (/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux)
@@ -1305,14 +1626,14 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: 5203CC68E47433779DEF90D78EE33C8E;2867.
+(rerunfilecheck)             Checksum: 9F7219DFA59EA01DF3E4AEDFFC581B2C;7343.
  ) 
 Here is how much of TeX's memory you used:
- 32508 strings out of 467525
- 614079 string characters out of 5418982
- 1091005 words of memory out of 5000000
- 60524 multiletter control sequences out of 15000+600000
- 700171 words of font info for 271 fonts, out of 8000000 for 9000
+ 32806 strings out of 467525
+ 618011 string characters out of 5418982
+ 1093000 words of memory out of 5000000
+ 60651 multiletter control sequences out of 15000+600000
+ 731490 words of font info for 372 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,16n,113p,1996b,1316s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
@@ -1324,13 +1645,14 @@ sr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 ocal/texlive/2026/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texliv
 e/2026/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2026/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fon
-ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/u
-rw/times/utmri8a.pfb>
+ts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/
+urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/
+utmri8a.pfb>
 Output written on /Users/a.martinelli/WebstormProjects/quantum-computer-degree/
-out/index.pdf (14 pages, 181165 bytes).
+out/index.pdf (26 pages, 227201 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
- 78970 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 429 PDF objects out of 1000 (max. 8388607)
+ 372 compressed objects within 4 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 108826 words of extra memory for PDF output out of 128383 (max. 10000000)
 
