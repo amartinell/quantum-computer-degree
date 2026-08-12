@@ -14,8 +14,8 @@ approssimativo del numero di transistor per chip ogni due anni. Tuttavia,
 man mano che le dimensioni dei componenti elettronici si avvicinano alla scala
 atomica, i limiti fisici della computazione classica diventano sempre più
 evidenti. In questo contesto emerge il paradigma della \textbf{computazione
-quantistica}, che sfrutta i principi della meccanica quantistica ---
-sovrapposizione, entanglement e interferenza --- per elaborare le informazioni
+quantistica}, che sfrutta i principi della meccanica quantistica -
+sovrapposizione, entanglement e interferenza - per elaborare le informazioni
 in modo radicalmente diverso rispetto ai computer tradizionali~\cite{nielsen2010quantum}.
 
 Un computer classico elabora le informazioni attraverso \textit{bit} binari, che
@@ -124,14 +124,6 @@ La porta a due qubit \textbf{CNOT} è definita da:
 L'insieme $\{H, T, \mathrm{CNOT}\}$ è \textit{universale}: ogni trasformazione
 unitaria può essere approssimata con precisione arbitraria da una composizione
 finita di queste porte (teorema di Solovay--Kitaev)~\cite{nielsen2010quantum}.
-Un esempio di circuito per generare lo stato di Bell $\ket{\Phi^+}$ è mostrato
-di seguito:
-\begin{center}
-\begin{quantikz}
-  \lstick{$\ket{0}$} & \gate{H} & \ctrl{1} & \rstick[2]{$\ket{\Phi^+}$} \\
-  \lstick{$\ket{0}$} & \qw      & \targ{}  &
-\end{quantikz}
-\end{center}
 
 % ─────────────────────────────────────────────────────────────────────────────
 \section{Vantaggi dei Computer Quantistici}
@@ -160,11 +152,6 @@ classici noti.
     naturalmente simulati da computer quantistici. La simulazione di molecole con
     precisione quantomeccanica, esponenzialmente costosa classicamente, è
     affrontabile efficientemente su hardware quantistico.
-
-  \item \textbf{Ottimizzazione combinatoria.}
-    Algoritmi come QAOA (\textit{Quantum Approximate Optimization Algorithm}) e
-    il \textit{Quantum Annealing} offrono approcci promettenti per problemi
-    NP-difficili in logistica, finanza e machine learning.
 
   \item \textbf{Crittografia quantistica.}
     Il protocollo BB84~\cite{bennett1984bb84} garantisce la sicurezza
@@ -205,8 +192,8 @@ e teoriche che ne limitano attualmente l'applicabilità pratica su larga scala.
     distanza rispetto all'accessibilità della programmazione classica rimane ampia.
 
   \item \textbf{Applicabilità circoscritta.}
-    Per la grande maggioranza dei compiti computazionali --- elaborazione di testi,
-    database relazionali, navigazione web --- i computer classici rimangono più
+    Per la grande maggioranza dei compiti computazionali - elaborazione di testi,
+    database relazionali, navigazione web - i computer classici rimangono più
     efficienti e pratici.
 \end{itemize}
 
@@ -252,7 +239,7 @@ architetture computazionali.
 % ─────────────────────────────────────────────────────────────────────────────
 
 Nel 2019, Google ha raggiunto la \textbf{supremazia quantistica} con il
-processore \textit{Sycamore} da 53 qubit~\cite{arute2019quantum}, completando
+processore \textit{Sycamore} da 53 qubit~, completando
 in $\sim 200\,\text{s}$ un campionamento casuale di circuiti che richiederebbe
 stimativamente $10\,000$ anni al supercomputer \textit{Summit}. Tale
 affermazione è stata contestata da IBM, che ha proposto algoritmi classici più
@@ -264,10 +251,15 @@ fermioni di Majorana. Il modello di accesso dominante si sta spostando verso il
 paradigma \textbf{cloud}: IBM Quantum Network, AWS Braket, Google Quantum AI e
 Azure Quantum offrono accesso remoto a processori reali.
 
-Il percorso più realistico per le applicazioni nei prossimi anni è il paradigma
-\textbf{ibrido classico-quantistico}, in cui il computer quantistico funge da
-co-processore acceleratore per specifici sottoproblemi, mentre il controllo
-generale rimane classico~\cite{preskill2018quantum}.
+Infine, nel 2026 IBM insieme all'Università di Chicago ha annunciato in un articolo
+\textit{Sampling hard circuits with verifiably high fidelity} una nuova architettura
+quantistica codificata, dimostrando una delle più grandi
+applicazioni di calcolo quantistico logico mai realizzate, pubblicando il progetto,
+con relativi circuiti, nel \textit{Quantum Advantage Tracker}.
+L'esperimento si basa sull'RCS (Random Circuit Sampling), ovvero un sistema che permette
+di generare circuiti quantistici casuali e verificarne la fedeltà, con l'obiettivo di
+dimostrare la superiorità dei computer quantistici rispetto a quelli classici.
+Infatti, il calcolo ha raggiunto tassi di errore 10 volte inferiori rispetto a quelli precedenti.
 
 % ─────────────────────────────────────────────────────────────────────────────
 \section{Conclusioni del Capitolo}
@@ -276,8 +268,8 @@ generale rimane classico~\cite{preskill2018quantum}.
 
 La computazione quantistica rappresenta un cambio di paradigma fondamentale,
 non una semplice evoluzione incrementale dei sistemi classici. I suoi vantaggi
-teorici --- accelerazione esponenziale per la fattorizzazione, ricerca,
-simulazione e ottimizzazione --- sono matematicamente dimostrati. Tuttavia, la
+teorici - accelerazione esponenziale per la fattorizzazione, ricerca,
+simulazione e ottimizzazione - sono matematicamente dimostrati. Tuttavia, la
 distanza tra teoria e implementazione hardware rimane considerevole: la
 decoerenza, gli errori fisici e le difficoltà di scalabilità costituiscono
 ostacoli tecnici genuini e non ancora risolti.
