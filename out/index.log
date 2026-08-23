@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  30 JUN 2026 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  23 AUG 2026 17:03
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex
-(/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex
+**index.tex
+(./index.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/base/report.cls
@@ -71,6 +70,97 @@ Language: italian 2026/01/13 v.1.5.02 Italian support for the babel system
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count289
 )
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen150
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen151
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count290
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count291
+\leftroot@=\count292
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count293
+\DOTSCASE@=\count294
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count295
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count296
+\dotsspace@=\muskip17
+\c@parentequation=\count297
+\dspbrk@lvl=\count298
+\tag@help=\toks20
+\row@=\count299
+\column@=\count300
+\maxfields@=\count301
+\andhelp@=\toks21
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks29
+)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
@@ -93,8 +183,8 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-\symbold=\mathgroup4
-\symitalic=\mathgroup5
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
@@ -112,27 +202,27 @@ Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks30
 )
-\MT@toks=\toks20
-\MT@tempbox=\box53
-\MT@count=\count290
+\MT@toks=\toks31
+\MT@tempbox=\box55
+\MT@count=\count302
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
 LaTeX Info: Redefining \leftprotrusion on input line 1085.
-\MT@prot@toks=\toks21
+\MT@prot@toks=\toks32
 LaTeX Info: Redefining \rightprotrusion on input line 1104.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen150
+\MT@outer@kern=\dimen159
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count291
+\MT@listname@count=\count303
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
-\MT@outer@space=\skip51
+\MT@outer@space=\skip57
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -146,20 +236,20 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip52
-\RaggedLeftLeftskip=\skip53
-\RaggedRightLeftskip=\skip54
-\CenteringRightskip=\skip55
-\RaggedLeftRightskip=\skip56
-\RaggedRightRightskip=\skip57
-\CenteringParfillskip=\skip58
-\RaggedLeftParfillskip=\skip59
-\RaggedRightParfillskip=\skip60
-\JustifyingParfillskip=\skip61
-\CenteringParindent=\skip62
-\RaggedLeftParindent=\skip63
-\RaggedRightParindent=\skip64
-\JustifyingParindent=\skip65
+\CenteringLeftskip=\skip58
+\RaggedLeftLeftskip=\skip59
+\RaggedRightLeftskip=\skip60
+\CenteringRightskip=\skip61
+\RaggedLeftRightskip=\skip62
+\RaggedRightRightskip=\skip63
+\CenteringParfillskip=\skip64
+\RaggedLeftParfillskip=\skip65
+\RaggedRightParfillskip=\skip66
+\JustifyingParfillskip=\skip67
+\CenteringParindent=\skip68
+\RaggedLeftParindent=\skip69
+\RaggedRightParindent=\skip70
+\JustifyingParindent=\skip71
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
@@ -170,127 +260,37 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count292
-\Gm@cntv=\count293
-\c@Gm@tempcnt=\count294
-\Gm@bindingoffset=\dimen151
-\Gm@wd@mp=\dimen152
-\Gm@odd@mp=\dimen153
-\Gm@even@mp=\dimen154
-\Gm@layoutwidth=\dimen155
-\Gm@layoutheight=\dimen156
-\Gm@layouthoffset=\dimen157
-\Gm@layoutvoffset=\dimen158
-\Gm@dimlist=\toks22
+\Gm@cnth=\count304
+\Gm@cntv=\count305
+\c@Gm@tempcnt=\count306
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
+\Gm@dimlist=\toks33
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip66
-\f@nch@offset@elh=\skip67
-\f@nch@offset@erh=\skip68
-\f@nch@offset@olh=\skip69
-\f@nch@offset@orh=\skip70
-\f@nch@offset@elf=\skip71
-\f@nch@offset@erf=\skip72
-\f@nch@offset@olf=\skip73
-\f@nch@offset@orf=\skip74
-\f@nch@height=\skip75
-\f@nch@footalignment=\skip76
-\f@nch@widthL=\skip77
-\f@nch@widthC=\skip78
-\f@nch@widthR=\skip79
-\@temptokenb=\toks23
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/07/09 v2.17z AMS math features
-\@mathmargin=\skip80
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2024/11/17 v2.01 AMS text
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
-\ex@=\dimen159
-))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen160
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count295
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count296
-\leftroot@=\count297
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count298
-\DOTSCASE@=\count299
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box54
-\strutbox@=\box55
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen161
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count300
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count301
-\dotsspace@=\muskip17
-\c@parentequation=\count302
-\dspbrk@lvl=\count303
-\tag@help=\toks25
-\row@=\count304
-\column@=\count305
-\maxfields@=\count306
-\andhelp@=\toks26
-\eqnshift@=\dimen162
-\alignsep@=\dimen163
-\tagshift@=\dimen164
-\tagwidth@=\dimen165
-\totwidth@=\dimen166
-\lineht@=\dimen167
-\@envbody=\toks27
-\multlinegap=\skip81
-\multlinetaggap=\skip82
-\mathdisplay@stack=\toks28
-LaTeX Info: Redefining \[ on input line 2950.
-LaTeX Info: Redefining \] on input line 2951.
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup6
-\symAMSb=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks29
-\thm@bodyfont=\toks30
-\thm@headfont=\toks31
-\thm@notefont=\toks32
-\thm@headpunct=\toks33
-\thm@preskip=\skip83
-\thm@postskip=\skip84
-\thm@headsep=\skip85
-\dth@everypar=\toks34
+\f@nch@headwidth=\skip72
+\f@nch@offset@elh=\skip73
+\f@nch@offset@erh=\skip74
+\f@nch@offset@olh=\skip75
+\f@nch@offset@orh=\skip76
+\f@nch@offset@elf=\skip77
+\f@nch@offset@erf=\skip78
+\f@nch@offset@olf=\skip79
+\f@nch@offset@orf=\skip80
+\f@nch@height=\skip81
+\f@nch@footalignment=\skip82
+\f@nch@widthL=\skip83
+\f@nch@widthC=\skip84
+\f@nch@widthR=\skip85
+\@temptokenb=\toks34
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/braket/braket.sty)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/physics/physics.sty
@@ -846,18 +846,6 @@ LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-044.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1044.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1044.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1044.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 104
 4.
 
@@ -870,6 +858,18 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 104
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+044.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1044.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1044.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1044.
 \c@wirenumberpermute=\count346
 ))
 (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/listings.sty
@@ -1221,10 +1221,10 @@ o NV$[]$. La tran-si-zio-ne ot-ti-ca a 637nm
  []
 
 
-Overfull \hbox (2.23988pt too wide) in paragraph at lines 7--7
+Overfull \hbox (7.46126pt too wide) in paragraph at lines 7--7
  \T1/ptm/m/n/12 (-20) (ZPL, \T1/ptm/m/it/12 (-20) zero-phonon li-ne\T1/ptm/m/n/
-12 (-20) ) eci-ta il tri-plet-to; il \T1/ptm/m/it/12 (-20) inter-system cros-si
-ng \T1/ptm/m/n/12 (-20) (ISC) ver- 
+12 (-20) ) ec-ci-ta il tri-plet-to; il \T1/ptm/m/it/12 (-20) inter-system cros-
+sing \T1/ptm/m/n/12 (-20) (ISC) ver- 
  []
 
 
@@ -1253,6 +1253,23 @@ n/12 (-20) pom-pa pre-fe-ren-zial-men-te la po-po-la-zio-ne in $\OML/ztmcm/m/it
 ] (./chapter-1/index.tex
 Capitolo 1.
 
+Package natbib Warning: Citation `nielsen2010quantum' on page 1 undefined on in
+put line 19.
+
+
+Overfull \hbox (0.13611pt too wide) in paragraph at lines 11--20
+\T1/ptm/m/n/12 (+13) le-bre \T1/ptm/m/it/12 (+13) Leg-ge di Moo-re\T1/ptm/m/n/1
+2 (+13) , che de-scri-ve il rad-dop-pio ap-pros-si-ma-ti-vo del nu-me-ro di tra
+n-si-stor 
+ []
+
+
+Overfull \hbox (0.1682pt too wide) in paragraph at lines 11--20
+\T1/ptm/m/n/12 (+14) sem-pre più evi-den-ti. In que-sto con-te-sto emer-ge il p
+a-ra-dig-ma del-la \T1/ptm/b/n/12 (+14) com-pu-ta-zio-ne quan- 
+ []
+
+
 Underfull \vbox (badness 1742) has occurred while \output is active []
 
  [1
@@ -1278,76 +1295,116 @@ t sul-la sfe-ra di Bloch. I po-li nord e
  []
 
 [2]
+
+Package natbib Warning: Citation `nielsen2010quantum' on page 3 undefined on in
+put line 126.
+
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-47.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+39.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3]
-Overfull \hbox (0.1575pt too wide) in paragraph at lines 164--168
-\T1/ptm/m/it/12 (+6) Optimization Algorithm\T1/ptm/m/n/12 (+6) ) e il \T1/ptm/m
-/it/12 (+6) Quantum Annealing \T1/ptm/m/n/12 (+6) offrono approcci promettenti 
-per 
- []
+)
+
+Package natbib Warning: Citation `shor1994algorithms' on page 3 undefined on in
+put line 140.
 
 
-Overfull \hbox (10.16739pt too wide) in paragraph at lines 169--173
+Package natbib Warning: Citation `grover1996fast' on page 3 undefined on input 
+line 145.
+
+
+Package natbib Warning: Citation `feynman1982simulating' on page 3 undefined on
+ input line 151.
+
+[3]
+
+Package natbib Warning: Citation `bennett1984bb84' on page 4 undefined on input
+ line 157.
+
+
+Overfull \hbox (14.48734pt too wide) in paragraph at lines 156--160
 []\T1/ptm/b/n/12 (-20) Crittografia quan-ti-sti-ca. \T1/ptm/m/n/12 (-20) Il pro
--to-col-lo BB84 [[]] ga-ran-ti-sce la si-cu-rez-za informazione- 
+-to-col-lo BB84 [\T1/ptm/b/n/12 (-20) ? \T1/ptm/m/n/12 (-20) ] ga-ran-ti-sce la
+ si-cu-rez-za informazione- 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+
+Package natbib Warning: Citation `preskill2018quantum' on page 4 undefined on i
+nput line 180.
+
+
+Overfull \hbox (0.11581pt too wide) in paragraph at lines 194--198
+[]\T1/ptm/b/n/12 (+4) Applicabilità circoscritta. \T1/ptm/m/n/12 (+4) Per la gr
+ande maggioranza dei compiti computazionali 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []|\T1/ptm/m/n/12 (+20) Qubit ($[]$, $[]$, so-vrap-po-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []|\T1/ptm/m/n/12 (+20) Trasformazioni uni-ta-rie
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []|\T1/ptm/m/n/12 (+20) Parallelismo quan-ti-sti-co ($\OT1/ztmcm/m/n/12 2[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []|\T1/ptm/m/n/12 (+20) In svi-lup-po (QEC, re-gi-me
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []|\T1/ptm/m/n/12 (+20) Crittografia, si-mu-la-zio-ne,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []|\T1/ptm/m/n/12 (+20) Elevati, in-fra-strut-tu-ra spe-cia-
  []
 
-[5]) (./chapter-2/index.tex [6]
+[4]
+Overfull \hbox (0.1133pt too wide) in paragraph at lines 254--263
+\T1/ptm/m/n/12 (+16) che per-met-te di ge-ne-ra-re cir-cui-ti quan-ti-sti-ci ca
+-sua-li e ve-ri-fi-car-ne la fe-del-tà, con l'o-biet-ti- 
+ []
+
+[5]
+Overfull \hbox (0.19762pt too wide) in paragraph at lines 269--276
+\T1/ptm/m/n/12 (+16) una sem-pli-ce evo-lu-zio-ne in-cre-men-ta-le dei si-ste-m
+i clas-si-ci. I suoi van-tag-gi teo-ri-ci - ac-ce- 
+ []
+
+) (./chapter-2/index.tex [6]
 Capitolo 2.
 
 Package natbib Warning: Citation `divincenzo2000physical' on page 7 undefined o
-n input line 18.
+n input line 32.
+
+
+Overfull \hbox (0.12268pt too wide) in paragraph at lines 31--38
+\T1/ptm/m/n/12 (+7) mu-la-ti da Di-Vin-cen-zo [\T1/ptm/b/n/12 (+7) ? \T1/ptm/m/
+n/12 (+7) ], che dal 2000 so-no il me-tro con cui si giu-di-ca ogni tec-no-lo-g
+ia 
+ []
 
 [7
 
 ]
-./chapter-2/index.tex:52: Undefined control sequence.
-\hbar ->\protect \hbar  
-                        
-l.52 ...\varphi, \qquad E_J = \frac{\hbar I_0}{2e}
-                                                  ,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 Package natbib Warning: Citation `koch2007charge' on page 8 undefined on input 
-line 59.
+line 87.
+
+
+Overfull \hbox (0.18526pt too wide) in paragraph at lines 86--92
+\T1/ptm/m/n/12 (+8) tra i li-vel-li ener-ge-ti-ci, il tran-smon di-ven-ta qua-s
+i in-sen-si-bi-le al ru-mo-re elet-tri-co che di-stur- 
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1357,37 +1414,66 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
 
 [8]
-
-Package natbib Warning: Citation `cirac1995quantum' on page 9 undefined on inpu
-t line 116.
-
-
-Package natbib Warning: Citation `ballance2016highfidelity' on page 9 undefined
- on input line 124.
-
-
-Package natbib Warning: Citation `knill2001scheme' on page 9 undefined on input
- line 149.
-
-[9]
-
-Package natbib Warning: Citation `kitaev2003fault' on page 10 undefined on inpu
-t line 168.
-
-
-Overfull \hbox (0.16306pt too wide) in paragraph at lines 177--182
-[]\T1/ptm/m/n/12 (+5) Microsoft ha in-ve-sti-to in-ten-sa-men-te in que-sta di-
-re-zio-ne. Nel 2025 ha an-nun-cia-to una pri- 
+Overfull \hbox (0.11728pt too wide) in paragraph at lines 126--136
+\T1/ptm/m/n/12 (+8) fisici: far stare tutto quel materiale dentro un frigorifer
+o è oggi il principale ostacolo alla 
  []
 
 
-Overfull \hbox (0.19112pt too wide) in paragraph at lines 177--182
-\T1/ptm/m/n/12 (+6) ma di-mo-stra-zio-ne di qu-bit to-po-lo-gi-ci con tem-pi di
- coe-ren-za mi-su-ra-bi-li nel si-ste-ma Ma-jo- 
+Overfull \hbox (0.12613pt too wide) in paragraph at lines 145--154
+\T1/ptm/m/n/12 (+17) nul-la - da qui il no-me "trap-po-la" (\T1/ptm/m/it/12 (+1
+7) trap-po-la di Paul \T1/ptm/m/n/12 (+17) se i cam-pi oscil-la-no, \T1/ptm/m/i
+t/12 (+17) trap-po-la di Pen- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+
+Package natbib Warning: Citation `cirac1995quantum' on page 10 undefined on inp
+ut line 165.
+
+
+Package natbib Warning: Citation `ballance2016highfidelity' on page 10 undefine
+d on input line 172.
+
+
+Overfull \hbox (0.1839pt too wide) in paragraph at lines 184--189
+\T1/ptm/m/n/12 (+11) (Honeywell) e Oxford Ionics stanno abbandonando l'idea del
+la catena unica in favore di 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 25.10403pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.10403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
+
+[10]
+
+Package natbib Warning: Citation `knill2001scheme' on page 11 undefined on inpu
+t line 209.
+
+
+Package natbib Warning: Citation `kitaev2003fault' on page 11 undefined on inpu
+t line 238.
+
+
+Overfull \hbox (0.13522pt too wide) in paragraph at lines 241--249
+[]\T1/ptm/m/n/12 (+15) Ne segue la proprietà chiave, la \T1/ptm/b/n/12 (+15) pr
+otezione topologica\T1/ptm/m/n/12 (+15) : un disturbo locale, che colpisce 
+ []
+
+[11]
+Overfull \hbox (0.19112pt too wide) in paragraph at lines 250--255
+\T1/ptm/m/n/12 (+19) ba-sa-to su giun-zio-ni InAs/Al. Re-sta pe-rò la tec-no-lo
+-gia me-no ma-tu-ra del-le cin-que: sia-mo 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
 []\T1/ptm/m/n/12 Figura 2.1: []Schema del cen-tro NV nel re-ti-co-lo cri-stal-l
 i-no del dia-man-te. L'a-to-mo di azo-to
  []
@@ -1399,112 +1485,18 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
 
-[10] [11]
-
-Package natbib Warning: Citation `balasubramanian2009ultralong' on page 12 unde
-fined on input line 346.
-
-
-Overfull \hbox (0.11552pt too wide) in paragraph at lines 347--349
-[]$\OML/ztmcm/m/it/12 T[]$ \T1/ptm/m/n/12 (+17) (\T1/ptm/m/it/12 (+17) free ind
-uction decay\T1/ptm/m/n/12 (+17) ): $\OT1/ztmcm/m/n/12 1$\T1/ptm/m/n/12 (+17) -
--$\OT1/ztmcm/m/n/12 100 \OML/ztmcm/m/it/12 ^^V[]$\T1/ptm/m/n/12 (+17) , dipende
-nte dalla densità di spin nucleari $[]$C 
- []
-
-
-Package natbib Warning: Citation `maurer2012room' on page 12 undefined on input
- line 354.
-
-
-Package natbib Warning: Citation `babaie2026cryogenic' on page 12 undefined on 
-input line 375.
-
-
-Overfull \hbox (0.18282pt too wide) in paragraph at lines 368--376
-\T1/ptm/m/n/12 (+5) fi-col-tà di pa-ral-le-liz-za-zio-ne. Nel feb-bra-io 2026, 
-Qu-Tech (Del-ft Uni-ver-si-ty of Tech-no-lo-gy) 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (15.0pt): 
-(fancyhdr)                Make it at least 25.10403pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.10403pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
-
 [12]
-
-Package natbib Warning: Citation `hensen2015loophole' on page 13 undefined on i
-nput line 408.
+Overfull \hbox (0.14989pt too wide) in paragraph at lines 359--364
+\T1/ptm/m/n/12 (+1) dei due sale in energia e l'altro scende. Ora hanno frequen
+ze diverse e si possono trattare 
+ []
 
 [13]
-
-Package natbib Warning: Citation `degen2017quantum' on page 14 undefined on inp
-ut line 428.
-
-
-Package natbib Warning: Citation `hensen2015loophole' on page 14 undefined on i
-nput line 434.
-
-
-Overfull \hbox (11.94122pt too wide) in paragraph at lines 478--478
-[]|\T1/ptm/m/n/12 (-20) Supercondutt.| 
+Overfull \hbox (0.14616pt too wide) in paragraph at lines 442--445
+[]\T1/ptm/m/n/12 (+3) Questa tecnica ha un nome, \T1/ptm/b/n/12 (+3) ODMR \T1/p
+tm/m/n/12 (+3) (\T1/ptm/m/it/12 (+3) Optically Detected Magnetic Resonance\T1/p
+tm/m/n/12 (+3) ), e sta alla 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--478
-[]|\T1/ptm/m/n/12 (+20) Trappola
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--478
-[]|\T1/ptm/m/n/12 (+20) NV dia-
- []
-
-
-Overfull \hbox (1.00674pt too wide) in paragraph at lines 478--478
-[]|\T1/ptm/m/n/12 (-20) Amb./UHV| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--478
-[]|\T1/ptm/m/n/12 (+20) 1--2ms
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--478
-\T1/ptm/m/n/12 (+20) (amb.)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--478
-\OML/ztmcm/m/it/12 >$\T1/ptm/m/n/12 (+20) 50ms
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--478
-[]|\T1/ptm/m/n/12 (+20) 99.0--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--478
-[]|\T1/ptm/m/n/12 (+20) 99.3--
- []
-
-
-Overfull \hbox (6.70776pt too wide) in paragraph at lines 478--478
-[]|\T1/ptm/m/n/12 (-20) Locale/Rem.| 
- []
-
-
-Overfull \hbox (0.59264pt too wide) in paragraph at lines 478--478
-[]|\T1/ptm/m/n/12 (-20) Laser+MW| 
- []
-
-
-Package natbib Warning: Citation `babaie2026cryogenic' on page 14 undefined on 
-input line 478.
 
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1515,16 +1507,60 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 
 [14]
 
-Package natbib Warning: Citation `babaie2026cryogenic' on page 15 undefined on 
-input line 505.
+Package natbib Warning: Citation `balasubramanian2009ultralong' on page 15 unde
+fined on input line 459.
 
-)
-Overfull \hbox (0.1571pt too wide) in paragraph at lines 512--140
-[]\T1/ptm/m/n/12 (+2) Il ca-pi-to-lo suc-ces-si-vo esa-mi-ne-rà gli al-go-rit-m
-i quan-ti-sti-ci più ri-le-van-ti e la lo-ro im-ple-men- 
+
+Overfull \hbox (0.11552pt too wide) in paragraph at lines 460--462
+[]$\OML/ztmcm/m/it/12 T[]$ \T1/ptm/m/n/12 (+17) (\T1/ptm/m/it/12 (+17) free ind
+uction decay\T1/ptm/m/n/12 (+17) ): $\OT1/ztmcm/m/n/12 1$\T1/ptm/m/n/12 (+17) -
+-$\OT1/ztmcm/m/n/12 100 \OML/ztmcm/m/it/12 ^^V[]$\T1/ptm/m/n/12 (+17) , dipende
+nte dalla densità di spin nucleari $[]$C 
  []
 
+
+Package natbib Warning: Citation `maurer2012room' on page 15 undefined on input
+ line 471.
+
+
+Overfull \hbox (0.19702pt too wide) in paragraph at lines 487--493
+\T1/ptm/m/n/12 (+5) sono ritardi e rumore. Soprattutto, ogni qubit richiederebb
+e la propria linea: controllarne 
+ []
+
+
+Package natbib Warning: Citation `babaie2026cryogenic' on page 15 undefined on 
+input line 500.
+
 [15]
+Overfull \hbox (0.13467pt too wide) in paragraph at lines 514--523
+\T1/ptm/b/n/12 (+4) in-ge-gne-ria dei se-mi-con-dut-to-ri e fi-si-ca quan-ti-st
+i-ca\T1/ptm/m/n/12 (+4) : il dia-man-te non di-pen-de più da una 
+ []
+
+
+Package natbib Warning: Citation `hensen2015loophole' on page 16 undefined on i
+nput line 537.
+
+
+Overfull \hbox (0.17406pt too wide) in paragraph at lines 530--538
+\T1/ptm/m/n/12 (+14) da qua-le NV ven-ga cia-scun fo-to-ne, e pro-prio que-sta 
+am-bi-gui-tà pro-iet-ta i due spin in uno 
+ []
+
+
+Overfull \hbox (0.11595pt too wide) in paragraph at lines 539--545
+\T1/ptm/m/n/12 (+11) ti (me-no di $\OT1/ztmcm/m/n/12 10 []$\T1/ptm/m/n/12 (+11)
+ ) si per-ce-pi-sco-no a vi-cen-da co-me due mi-nu-sco-li ma-gne-ti: è l'ac-cop
+-pia- 
+ []
+
+
+Overfull \hbox (0.18382pt too wide) in paragraph at lines 551--556
+\T1/ptm/m/n/12 (+4) anche un ottimo \T1/ptm/b/n/12 (+4) sensore\T1/ptm/m/n/12 (
++4) : se il qubit reagisce al più piccolo campo magnetico, allora può 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
 (fancyhdr)                Make it at least 25.10403pt, for example:
@@ -1532,92 +1568,107 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
 
-[16
+[16]
 
-]
-(/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.bbl)
-[17
+Package natbib Warning: Citation `degen2017quantum' on page 17 undefined on inp
+ut line 563.
 
-]
+
+Package natbib Warning: Citation `hensen2015loophole' on page 17 undefined on i
+nput line 569.
+
+
+Overfull \hbox (11.94122pt too wide) in paragraph at lines 615--615
+[]|\T1/ptm/m/n/12 (-20) Supercondutt.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
+[]|\T1/ptm/m/n/12 (+20) Trappola
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
+[]|\T1/ptm/m/n/12 (+20) NV dia-
+ []
+
+
+Overfull \hbox (1.00674pt too wide) in paragraph at lines 615--615
+[]|\T1/ptm/m/n/12 (-20) Amb./UHV| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
+[]|\T1/ptm/m/n/12 (+20) 1--2ms
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
+\T1/ptm/m/n/12 (+20) (amb.)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
+\OML/ztmcm/m/it/12 >$\T1/ptm/m/n/12 (+20) 50ms
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
+[]|\T1/ptm/m/n/12 (+20) 99.0--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
+[]|\T1/ptm/m/n/12 (+20) 99.3--
+ []
+
+
+Overfull \hbox (6.70776pt too wide) in paragraph at lines 615--615
+[]|\T1/ptm/m/n/12 (-20) Locale/Rem.| 
+ []
+
+
+Overfull \hbox (0.59264pt too wide) in paragraph at lines 615--615
+[]|\T1/ptm/m/n/12 (-20) Laser+MW| 
+ []
+
+
+Package natbib Warning: Citation `babaie2026cryogenic' on page 17 undefined on 
+input line 615.
+
+[17]
+Overfull \hbox (0.19365pt too wide) in paragraph at lines 637--646
+\T1/ptm/m/n/12 (+4) Questo ca-pi-to-lo ha mo-stra-to che die-tro la pa-ro-la "q
+u-bit" si na-scon-do-no og-get-ti fi-si-ci mol- 
+ []
+
+
+Overfull \hbox (0.13765pt too wide) in paragraph at lines 637--646
+\T1/ptm/m/n/12 (+18) len-te. I qu-bit fo-to-ni-ci so-no la scel-ta na-tu-ra-le 
+per far viag-gia-re l'in-for-ma-zio-ne, ma fa-ti-ca- 
+ []
+
+
+Package natbib Warning: Citation `babaie2026cryogenic' on page 18 undefined on 
+input line 653.
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 25.10403pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.10403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
+
+[18]) [19]
 Overfull \hbox (0.10327pt too wide) in paragraph at lines 149--149
 \T1/ptm/m/n/12 (+12) A chi mi è stato vicino nei momenti difficili, insegnandom
 i che presentarsi e parlare è la 
  []
 
 
-/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex:153:
- LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153   \newline
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex:154:
- LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154   \newline
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex:156:
- LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.156   \newline
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex:157:
- LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157   \newline
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/Users/a.martinelli/WebstormProjects/quantum-computer-degree/src/index.tex:161:
- LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161   \newline
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package natbib Warning: There were undefined citations.
 
-[18
+[20
 
 ]
 (/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux)
@@ -1626,16 +1677,16 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: 9F7219DFA59EA01DF3E4AEDFFC581B2C;7343.
+(rerunfilecheck)             Checksum: CF9A2FD702DE4F3C595C7C6875DC8BA9;7343.
  ) 
 Here is how much of TeX's memory you used:
- 32806 strings out of 467525
- 618011 string characters out of 5418982
- 1093000 words of memory out of 5000000
- 60651 multiletter control sequences out of 15000+600000
- 731490 words of font info for 372 fonts, out of 8000000 for 9000
+ 32550 strings out of 467525
+ 611099 string characters out of 5418982
+ 1087935 words of memory out of 5000000
+ 60385 multiletter control sequences out of 15000+600000
+ 732116 words of font info for 385 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,16n,113p,1996b,1316s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,14n,113p,1931b,834s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -1649,10 +1700,10 @@ ts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
 Output written on /Users/a.martinelli/WebstormProjects/quantum-computer-degree/
-out/index.pdf (26 pages, 227201 bytes).
+out/index.pdf (28 pages, 234412 bytes).
 PDF statistics:
- 429 PDF objects out of 1000 (max. 8388607)
- 372 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 500000)
- 108826 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 419 PDF objects out of 1000 (max. 8388607)
+ 360 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 110874 words of extra memory for PDF output out of 128383 (max. 10000000)
 

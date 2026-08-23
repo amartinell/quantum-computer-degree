@@ -6,6 +6,7 @@
 \usepackage[italian]{babel}
 
 % ── Font (Times, standard per tesi accademiche) ───────────────────────────────
+\usepackage{amsmath, amssymb, amsthm}  % prima di mathptmx: altrimenti \hbar si rompe
 \usepackage{mathptmx}
 \usepackage{microtype}
 \usepackage{setspace}
@@ -32,7 +33,6 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % ── Math ──────────────────────────────────────────────────────────────────────
-\usepackage{amsmath, amssymb, amsthm}
 \usepackage{braket}
 \usepackage{physics}
 
@@ -139,9 +139,9 @@ Sommario
 % \input{chapter-3/index}
 
 % ── Bibliography ──────────────────────────────────────────────────────────────
-\cleardoublepage
-\bibliographystyle{plainnat}
-\bibliography{references}
+% \cleardoublepage
+% \bibliographystyle{plainnat}
+% \bibliography{references}
 
 % Ringraziamenti
 \chapter*{Ringraziamenti}
@@ -149,10 +149,8 @@ Sommario
   A chi mi è stato vicino nei momenti difficili, insegnandomi che presentarsi e parlare è la forma più coraggiosa di forza.\\
   A chi non ha mai smesso di credere, di amare, di provarci.\\
   A chi non ha ancora avuto il coraggio di mettersi in gioco.\\
-  A chi, invece, ha provato ed è caduto, fallendo.\\
-  \newline
-  A me stesso, perché i traguardi importanti vanno sempre festeggiati.\\
-  \newline
+  A chi, invece, ha provato ed è caduto, fallendo.\\[\bigskipamount]
+  A me stesso, perché i traguardi importanti vanno sempre festeggiati.\\[\bigskipamount]
   A chi ha lottato in silenzio, sperando che qualcuno si accorgesse.\\
   E a chi, accorgendosi, ha fatto la differenza.
   \newline

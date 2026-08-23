@@ -1,20 +1,48 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Arute et~al.(2019)]{arute2019quantum}
-Frank Arute et~al.
-\newblock Quantum supremacy using a programmable superconducting processor.
-\newblock \emph{Nature}, 574:\penalty0 505--510, 2019.
+\bibitem[Babaie et~al.(2026)Babaie, Sebastiano, et~al.]{babaie2026cryogenic}
+Masoud Babaie, Fabio Sebastiano, et~al.
+\newblock Scalable diamond quantum computing with cryogenic chip integration.
+\newblock In \emph{IEEE International Solid-State Circuits Conference (ISSCC)},
+  San Francisco, 2026.
+\newblock QuTech, Delft University of Technology; Fujitsu-funded project.
+
+\bibitem[Balasubramanian et~al.(2009)]{balasubramanian2009ultralong}
+Gopalakrishnan Balasubramanian et~al.
+\newblock Ultralong spin coherence time in isotopically engineered diamond.
+\newblock \emph{Nature Materials}, 8:\penalty0 383--387, 2009.
+
+\bibitem[Ballance et~al.(2016)]{ballance2016highfidelity}
+Christopher~J. Ballance et~al.
+\newblock High-fidelity quantum logic gates using trapped-ion hyperfine qubits.
+\newblock \emph{Physical Review Letters}, 117:\penalty0 060504, 2016.
 
 \bibitem[Bennett and Brassard(1984)]{bennett1984bb84}
 Charles~H. Bennett and Gilles Brassard.
 \newblock Quantum cryptography: Public key distribution and coin tossing.
 \newblock \emph{Proceedings of IEEE International Conference on Computers,
   Systems and Signal Processing}, pages 175--179, 1984.
+
+\bibitem[Cirac and Zoller(1995)]{cirac1995quantum}
+Juan~I. Cirac and Peter Zoller.
+\newblock Quantum computations with cold trapped ions.
+\newblock \emph{Physical Review Letters}, 74\penalty0 (20):\penalty0
+  4091--4094, 1995.
+
+\bibitem[Degen et~al.(2017)Degen, Reinhard, and Cappellaro]{degen2017quantum}
+Christian~L. Degen, Friedemann Reinhard, and Paola Cappellaro.
+\newblock Quantum sensing.
+\newblock \emph{Reviews of Modern Physics}, 89:\penalty0 035002, 2017.
+
+\bibitem[DiVincenzo(2000)]{divincenzo2000physical}
+David~P. DiVincenzo.
+\newblock \emph{The Physical Implementation of Quantum Computation}, volume~48.
+\newblock 2000.
 
 \bibitem[Feynman(1982)]{feynman1982simulating}
 Richard~P. Feynman.
@@ -27,6 +55,32 @@ Lov~K. Grover.
 \newblock A fast quantum mechanical algorithm for database search.
 \newblock \emph{Proceedings of the 28th Annual ACM Symposium on Theory of
   Computing}, pages 212--219, 1996.
+
+\bibitem[Hensen et~al.(2015)]{hensen2015loophole}
+Bas Hensen et~al.
+\newblock Loophole-free bell inequality violation using electron spins
+  separated by 1.3 kilometres.
+\newblock \emph{Nature}, 526:\penalty0 682--686, 2015.
+
+\bibitem[Kitaev(2003)]{kitaev2003fault}
+Alexei Kitaev.
+\newblock Fault-tolerant quantum computation by anyons.
+\newblock \emph{Annals of Physics}, 303:\penalty0 2--30, 2003.
+
+\bibitem[Knill et~al.(2001)Knill, Laflamme, and Milburn]{knill2001scheme}
+Emanuel Knill, Raymond Laflamme, and Gerard~J. Milburn.
+\newblock A scheme for efficient quantum computation with linear optics.
+\newblock \emph{Nature}, 409:\penalty0 46--52, 2001.
+
+\bibitem[Koch et~al.(2007)]{koch2007charge}
+Jens Koch et~al.
+\newblock Charge-insensitive qubit design derived from the cooper pair box.
+\newblock \emph{Physical Review A}, 76:\penalty0 042319, 2007.
+
+\bibitem[Maurer et~al.(2012)]{maurer2012room}
+Peter~C. Maurer et~al.
+\newblock Room-temperature quantum bit memory exceeding one second.
+\newblock \emph{Science}, 336:\penalty0 1283--1286, 2012.
 
 \bibitem[Nielsen and Chuang(2010)]{nielsen2010quantum}
 Michael~A. Nielsen and Isaac~L. Chuang.

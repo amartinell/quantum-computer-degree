@@ -1,0 +1,17 @@
+{
+  "name": "quantum-computer-degree",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tesi: computazione quantistica e centri NV nel diamante (LaTeX)",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "cd src && latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=../out index.tex",
+    "rebuild": "cd src && latexmk -pdf -gg -interaction=nonstopmode -halt-on-error -outdir=../out index.tex",
+    "watch": "cd src && latexmk -pdf -pvc -interaction=nonstopmode -outdir=../out index.tex",
+    "clean": "cd src && latexmk -C -outdir=../out index.tex",
+    "open": "open out/index.pdf",
+    "build:open": "npm run build && npm run open"
+  }
+}
