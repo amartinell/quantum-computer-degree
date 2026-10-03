@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  23 AUG 2026 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  23 AUG 2026 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1164,7 +1164,7 @@ Package hyperref Info: Link coloring OFF on input line 76.
 \@outlinefile=\write4
 \openout4 = `index.out'.
 
-<assets/logo-unicusano.png, id=139, 440.64626pt x 456.70625pt>
+<assets/logo-unicusano.png, id=191, 440.64626pt x 456.70625pt>
 File: assets/logo-unicusano.png Graphic file (type png)
 <use assets/logo-unicusano.png>
 Package pdftex.def Info: assets/logo-unicusano.png  used on input line 85.
@@ -1659,7 +1659,169 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-10.10403pt}.
 
-[18]) [19]
+[18]) (./chapter-3/index.tex [19]
+Capitolo 3.
+[20
+
+]
+
+Package natbib Warning: Citation `osservatori2025quantum' on page 21 undefined 
+on input line 52.
+
+
+Package natbib Warning: Citation `icsc2026partenope' on page 21 undefined on in
+put line 66.
+
+
+Overfull \hbox (0.17575pt too wide) in paragraph at lines 61--67
+\T1/ptm/m/n/12 (+1) ri-cer-ca e im-pre-se. È or-ga-niz-za-to se-con-do un mo-de
+l-lo \T1/ptm/m/it/12 (+1) hub and spo-ke\T1/ptm/m/n/12 (+1) , e in par-ti-co-la
+- 
+ []
+
+
+Package natbib Warning: Citation `icsc2026partenope' on page 21 undefined on in
+put line 75.
+
+
+Package natbib Warning: Citation `mur2026strategia' on page 21 undefined on inp
+ut line 92.
+
+
+Overfull \hbox (0.10951pt too wide) in paragraph at lines 88--95
+\T1/ptm/m/n/12 (+18) capitolo: i fondi PNRR hanno una scadenza. Nel luglio 2026
+ il Ministero delle Imprese 
+ []
+
+[21]
+
+Package natbib Warning: Citation `icsc2026partenope' on page 22 undefined on in
+put line 115.
+
+
+Package natbib Warning: Citation `sapienza2025qolossus' on page 22 undefined on
+ input line 130.
+
+
+Overfull \hbox (0.2208pt too wide) in paragraph at lines 134--140
+[]\T1/ptm/m/n/12 (+20) L'elemento più si-gni-fi-ca-ti-vo è che il cuo-re del-la
+ mac-chi-na è \T1/ptm/b/n/12 (+20) ita-lia-no\T1/ptm/m/n/12 (+20) : il pro-ces-
+so-re fo-to- 
+ []
+
+[22]
+
+Package natbib Warning: Citation `cnr2026atomineutri' on page 23 undefined on i
+nput line 158.
+
+
+Overfull \hbox (0.1859pt too wide) in paragraph at lines 160--170
+\T1/ptm/m/n/12 (+4) gri-glie re-go-la-ri mol-to den-se, il che ren-de que-sta p
+iat-ta-for-ma par-ti-co-lar-men-te pro-met-ten-te 
+ []
+
+
+Overfull \hbox (0.1514pt too wide) in paragraph at lines 160--170
+\T1/ptm/m/n/12 (+2) si ec-ci-ta-no gli ato-mi in sta-ti di \T1/ptm/b/n/12 (+2) 
+Ryd-berg\T1/ptm/m/n/12 (+2) , sta-ti in cui l'e-let-tro-ne più ester-no è co-sì
+ lon-ta-no 
+ []
+
+
+Overfull \hbox (0.18344pt too wide) in paragraph at lines 171--177
+\T1/ptm/m/n/12 (+15) con il con-cor-so di NQ-STI. Va-le la pe-na no-ta-re la co
+in-ci-den-za: è la stes-sa tec-no-lo-gia del- 
+ []
+
+
+Package natbib Warning: Citation `unipd2026lab' on page 23 undefined on input l
+ine 184.
+
+[23]
+
+Package natbib Warning: Citation `pasqal2026sol' on page 24 undefined on input 
+line 215.
+
+
+Package natbib Warning: Citation `cineca2026euroqcs' on page 24 undefined on in
+put line 229.
+
+
+Package natbib Warning: Citation `inrim2025iqm' on page 24 undefined on input l
+ine 235.
+
+[24]
+
+Package natbib Warning: Citation `fbk2024qubit' on page 25 undefined on input l
+ine 257.
+
+
+Package natbib Warning: Citation `cnr2026transmon' on page 25 undefined on inpu
+t line 267.
+
+
+Overfull \hbox (0.16803pt too wide) in paragraph at lines 270--279
+\T1/ptm/m/n/12 (+6) sotto dei transmon commerciali, che superano abitualmente i
+ 100$\OML/ztmcm/m/it/12 ^^V$\T1/ptm/m/n/12 (+6) s. Non siamo davanti 
+ []
+
+
+Package natbib Warning: Citation `mimit2025ephos' on page 25 undefined on input
+ line 291.
+
+
+Package natbib Warning: Citation `planckian2026' on page 25 undefined on input 
+line 301.
+
+[25]
+Overfull \hbox (0.10599pt too wide) in paragraph at lines 306--312
+\T1/ptm/m/it/12 (+11) ca-tions Ita-ly\T1/ptm/m/n/12 (+11) ), spin-off del CNR-I
+NO na-ta a Fi-ren-ze nel 2020 e og-gi con-trol-la-ta da Tel-sy 
+ []
+
+
+Package natbib Warning: Citation `eaton2022siv' on page 26 undefined on input l
+ine 332.
+
+
+Package natbib Warning: Citation `asi2025acdcq' on page 26 undefined on input l
+ine 344.
+
+
+Overfull \hbox (0.1109pt too wide) in paragraph at lines 339--348
+ []\T1/ptm/b/n/12 (+16) La sen-so-ri-sti-ca.[] \T1/ptm/m/n/12 (+16) L'al-tro fr
+on-te è quel-lo de-scrit-to nel Pa-ra-gra-fo []2.7[]: usa-re il cen-tro NV 
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
+[]|\T1/ptm/m/n/12 (+20) CINECA, Bo-lo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
+[]|\T1/ptm/m/n/12 (+20) Federico II, Na-
+ []
+
+
+Overfull \hbox (0.1252pt too wide) in paragraph at lines 386--394
+\T1/ptm/m/n/12 (+2) te in-stal-la-ta in Ita-lia non è ita-lia-na: il di-va-rio 
+di sca-la tra i 140 qu-bit di SOL e le piat-ta-for- 
+ []
+
+
+Overfull \hbox (0.18657pt too wide) in paragraph at lines 386--394
+\T1/ptm/m/n/12 (+2) me na-zio-na-li è net-to. La se-con-da è che l'u-ni-ca ri-g
+a in-te-ra-men-te ita-lia-na dal pro-ces-so-re in 
+ []
+
+[27])
+Overfull \hbox (0.14508pt too wide) in paragraph at lines 421--140
+\T1/ptm/m/n/12 (+2) sul calcolo. Se il diamante diventerà una piattaforma di ca
+lcolo credibile - e il Capitolo []2[] 
+ []
+
+[28]
 Overfull \hbox (0.10327pt too wide) in paragraph at lines 149--149
 \T1/ptm/m/n/12 (+12) A chi mi è stato vicino nei momenti difficili, insegnandom
 i che presentarsi e parlare è la 
@@ -1668,7 +1830,7 @@ i che presentarsi e parlare è la
 
 Package natbib Warning: There were undefined citations.
 
-[20
+[29
 
 ]
 (/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux)
@@ -1677,14 +1839,14 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: CF9A2FD702DE4F3C595C7C6875DC8BA9;7343.
+(rerunfilecheck)             Checksum: 40B60C5DAE50AA45169816B85883FD4F;10076.
  ) 
 Here is how much of TeX's memory you used:
- 32550 strings out of 467525
- 611099 string characters out of 5418982
- 1087935 words of memory out of 5000000
- 60385 multiletter control sequences out of 15000+600000
- 732116 words of font info for 385 fonts, out of 8000000 for 9000
+ 32651 strings out of 467525
+ 612375 string characters out of 5418982
+ 1088797 words of memory out of 5000000
+ 60419 multiletter control sequences out of 15000+600000
+ 735461 words of font info for 404 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,14n,113p,1931b,834s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
@@ -1700,10 +1862,10 @@ ts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
 Output written on /Users/a.martinelli/WebstormProjects/quantum-computer-degree/
-out/index.pdf (28 pages, 234412 bytes).
+out/index.pdf (37 pages, 259026 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 360 compressed objects within 4 object streams
- 86 named destinations out of 1000 (max. 500000)
- 110874 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 489 compressed objects within 5 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 115074 words of extra memory for PDF output out of 128383 (max. 10000000)
 

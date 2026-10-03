@@ -577,6 +577,13 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT ./chapter-3/index.tex
+INPUT ./chapter-3/index.tex
+INPUT ./chapter-3/index.tex
+INPUT ./chapter-3/index.tex
+INPUT chapter-3/index.tex
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux
 INPUT /Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.out
 INPUT /Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.out

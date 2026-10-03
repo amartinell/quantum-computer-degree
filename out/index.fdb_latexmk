@@ -1,10 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1787497387.06988 "index.tex" "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.pdf" "index" 1787497388.85154 0
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux" 1787497388.69388 11067 7d0d23918895ed5dd315137a4af57751 "pdflatex"
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lof" 1787497388.69748 940 af5c39d76f3ab29f9ded3b02c037295c "pdflatex"
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lot" 1787497388.69752 516 ac1d68dc69cf49a38db20b51951e6d2d "pdflatex"
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.out" 1787497388.6971 7343 cf9a2fd702de4f3c595c7c6875dc8ba9 "pdflatex"
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.toc" 1787497388.69743 3183 bf0eb283f45af64507e804579d467001 "pdflatex"
+["pdflatex"] 1787498493.63088 "index.tex" "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.pdf" "index" 1787498495.54 0
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux" 1787498495.3716 15828 387d48a9a56ea756fc9655508ef8a219 "pdflatex"
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lof" 1787498495.37485 960 255639b9d4d4e7bea50b4350f1f2da7f "pdflatex"
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lot" 1787498495.3749 676 9323e5a8e06724ba5452ba38f782f442 "pdflatex"
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.out" 1787498495.37436 10076 40b60c5dae50aa45169816b85883fd4f "pdflatex"
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.toc" 1787498495.37474 5085 ab089c83550a7e57133d39763af2f9f8 "pdflatex"
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -250,7 +250,8 @@
   "assets/logo-unicusano.png" 1782663346.90104 116195 ab85502b6963841331f05bbb8fbcd44d ""
   "chapter-1/index.tex" 1786555877.07812 16905 d5e910583bf44a2154f510d69e3a5781 ""
   "chapter-2/index.tex" 1787497263.14442 38203 b7455c636f955070d38fda0a11453161 ""
-  "index.tex" 1787497378.31402 6672 ac8235746f6b9e343306a038501e8b18 ""
+  "chapter-3/index.tex" 1787498312.55269 26941 df7f766efc83bcc0f46d04e14866ab24 ""
+  "index.tex" 1787498489.2686 6670 985a56ad5c772341a810de66d6892b68 ""
   (generated)
   "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux"
   "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lof"

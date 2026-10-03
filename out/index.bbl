@@ -1,9 +1,17 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{32}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{ACDC\_Q Consortium}(2025)]{asi2025acdcq}
+{ACDC\_Q Consortium}.
+\newblock Atomic clocks and diamond-based compact quantum sensors.
+\newblock Progetto europeo,
+  \url{https://cordis.europa.eu/project/id/101189875}, 2025.
+\newblock Partecipazione dell'Agenzia Spaziale Italiana; miniaturizzazione di
+  sensori a centri NV per magnetometria spaziale.
 
 \bibitem[Babaie et~al.(2026)Babaie, Sebastiano, et~al.]{babaie2026cryogenic}
 Masoud Babaie, Fabio Sebastiano, et~al.
@@ -28,11 +36,33 @@ Charles~H. Bennett and Gilles Brassard.
 \newblock \emph{Proceedings of IEEE International Conference on Computers,
   Systems and Signal Processing}, pages 175--179, 1984.
 
+\bibitem[{CINECA}(2026)]{cineca2026euroqcs}
+{CINECA}.
+\newblock {EuroQCS-Italy}.
+\newblock \url{https://www.hpc.cineca.it/projects/euroqcs-italy/}, 2026.
+\newblock Consorzio CINECA, ARNES, Forschungszentrum J\"ulich; aggiornamento
+  analogico/digitale previsto nel 2027.
+
 \bibitem[Cirac and Zoller(1995)]{cirac1995quantum}
 Juan~I. Cirac and Peter Zoller.
 \newblock Quantum computations with cold trapped ions.
 \newblock \emph{Physical Review Letters}, 74\penalty0 (20):\penalty0
   4091--4094, 1995.
+
+\bibitem[{Consiglio Nazionale delle Ricerche}(2026)]{cnr2026atomineutri}
+{Consiglio Nazionale delle Ricerche}.
+\newblock Inaugurata a firenze la piattaforma per il calcolo quantistico ad
+  atomi neutri del cnr.
+\newblock Nota stampa n.~14258, \url{https://www.cnr.it}, aprile 2026.
+
+\bibitem[{Consiglio Nazionale delle Ricerche} and
+  {INFN}(2026)]{cnr2026transmon}
+{Consiglio Nazionale delle Ricerche} and {INFN}.
+\newblock Un qubit superconduttivo italiano per esplorare la fisica
+  fondamentale.
+\newblock \url{https://www.cnr.it/en/news/14554}, luglio 2026.
+\newblock Transmon 3D in alluminio, CNR-IFN Roma; caratterizzato al laboratorio
+  COLD dei LNF-INFN.
 
 \bibitem[Degen et~al.(2017)Degen, Reinhard, and Cappellaro]{degen2017quantum}
 Christian~L. Degen, Friedemann Reinhard, and Paola Cappellaro.
@@ -50,17 +80,48 @@ Richard~P. Feynman.
 \newblock \emph{International Journal of Theoretical Physics}, 21\penalty0
   (6--7):\penalty0 467--488, 1982.
 
+\bibitem[{Fondazione Bruno Kessler}(2024)]{fbk2024qubit}
+{Fondazione Bruno Kessler}.
+\newblock A trento il primo qubit superconduttivo made in italy.
+\newblock \url{https://www.ufficiostampa.provincia.tn.it}, 2024.
+\newblock Gruppo coordinato da F.~Mantegazzini; progetti NQSTI, Qu-Pilot, Q@TN.
+
 \bibitem[Grover(1996)]{grover1996fast}
 Lov~K. Grover.
 \newblock A fast quantum mechanical algorithm for database search.
 \newblock \emph{Proceedings of the 28th Annual ACM Symposium on Theory of
   Computing}, pages 212--219, 1996.
 
+\bibitem[Hadden et~al.(2022)]{eaton2022siv}
+John~P. Hadden et~al.
+\newblock Super-{P}oissonian light statistics from individual silicon vacancy
+  centers coupled to a laser-written diamond waveguide.
+\newblock \emph{ACS Photonics}, 9:\penalty0 3956--3963, 2022.
+\newblock Collaborazione CNR-IFN Milano (gruppo S.~Eaton) -- Universit\`a di
+  Ulm.
+
 \bibitem[Hensen et~al.(2015)]{hensen2015loophole}
 Bas Hensen et~al.
 \newblock Loophole-free bell inequality violation using electron spins
   separated by 1.3 kilometres.
 \newblock \emph{Nature}, 526:\penalty0 682--686, 2015.
+
+\bibitem[{ICSC -- Centro Nazionale di Ricerca in HPC, Big Data e Quantum
+  Computing}(2026)]{icsc2026partenope}
+{ICSC -- Centro Nazionale di Ricerca in HPC, Big Data e Quantum Computing}.
+\newblock Napoli si conferma capitale del calcolo quantistico con il nuovo
+  processore superconduttivo a 64 qubit del computer partenope della federico
+  ii.
+\newblock Comunicato stampa, \url{https://www.supercomputing-icsc.it}, marzo
+  2026.
+
+\bibitem[{INRiM} et~al.(2025){INRiM}, {Politecnico di Torino}, and {Fondazione
+  LINKS}]{inrim2025iqm}
+{INRiM}, {Politecnico di Torino}, and {Fondazione LINKS}.
+\newblock A torino inaugurato il primo computer quantistico {IQM} disponibile
+  per i ricercatori e per le aziende.
+\newblock \url{https://www.inrim.it}, maggio 2025.
+\newblock Cinque qubit superconduttori operanti a 20\,mK.
 
 \bibitem[Kitaev(2003)]{kitaev2003fault}
 Alexei Kitaev.
@@ -82,16 +143,61 @@ Peter~C. Maurer et~al.
 \newblock Room-temperature quantum bit memory exceeding one second.
 \newblock \emph{Science}, 336:\penalty0 1283--1286, 2012.
 
+\bibitem[{Ministero delle Imprese e del Made in Italy}(2025)]{mimit2025ephos}
+{Ministero delle Imprese e del Made in Italy}.
+\newblock {UE} approva aiuto di stato da 41,5 milioni a ephos per impianto di
+  chip fotonici a milano.
+\newblock \url{https://www.mimit.gov.it}, luglio 2025.
+\newblock Impianto Fab-2, investimento complessivo 104,9 milioni di euro.
+
+\bibitem[{Ministero dell'Universit\`a e della Ricerca}(2026)]{mur2026strategia}
+{Ministero dell'Universit\`a e della Ricerca}.
+\newblock Strategia italiana per le tecnologie quantistiche.
+\newblock
+  \url{https://www.mur.gov.it/it/strategia-italiana-le-tecnologie-quantistiche},
+  2026.
+\newblock Consultazione pubblica per l'aggiornamento aperta nel luglio 2026.
+
 \bibitem[Nielsen and Chuang(2010)]{nielsen2010quantum}
 Michael~A. Nielsen and Isaac~L. Chuang.
 \newblock \emph{Quantum Computation and Quantum Information}.
 \newblock Cambridge University Press, Cambridge, 10th anniversary edition,
   2010.
 
+\bibitem[{Osservatorio Quantum Computing \& Communication, Politecnico di
+  Milano}(2025)]{osservatori2025quantum}
+{Osservatorio Quantum Computing \& Communication, Politecnico di Milano}.
+\newblock Quantum technologies: Italia ed europa. investimenti pubblici e
+  prospettive industriali.
+\newblock \url{https://www.osservatori.net}, 2025.
+\newblock Dati MUR 2021--2024: 228,9 milioni di euro, 86\% da PNRR.
+
+\bibitem[{Pasqal} and {CINECA}(2026)]{pasqal2026sol}
+{Pasqal} and {CINECA}.
+\newblock Pasqal delivers the italian {EuroHPC} system for neutral atom quantum
+  computing.
+\newblock \url{https://www.supercomputing-icsc.it}, febbraio 2026.
+\newblock Sistema SOL, 140 qubit; inaugurazione 11 giugno 2026.
+
+\bibitem[{Planckian}(2026)]{planckian2026}
+{Planckian}.
+\newblock Next generation quantum processor: architettura superconduttiva a
+  linee di controllo condivise.
+\newblock \url{https://www.planckian.co}, 2026.
+\newblock Spin-off Universit\`a di Pisa e Scuola Normale Superiore, 2023.
+
 \bibitem[Preskill(2018)]{preskill2018quantum}
 John Preskill.
 \newblock Quantum computing in the nisq era and beyond.
 \newblock \emph{Quantum}, 2:\penalty0 79, 2018.
+
+\bibitem[{Sapienza Universit\`a di Roma}(2025)]{sapienza2025qolossus}
+{Sapienza Universit\`a di Roma}.
+\newblock Presentato qolossus 2.0, il quantum computer fotonico italiano
+  modulare.
+\newblock Comunicato stampa, \url{https://www.uniroma1.it}, dicembre 2025.
+\newblock Processore fotonico universale a 12 modi realizzato da CNR-IFN
+  Milano.
 
 \bibitem[Shor(1994)]{shor1994algorithms}
 Peter~W. Shor.
@@ -99,5 +205,12 @@ Peter~W. Shor.
   factoring.
 \newblock \emph{Proceedings of the 35th Annual Symposium on Foundations of
   Computer Science}, pages 124--134, 1994.
+
+\bibitem[{Universit\`a degli Studi di Padova}(2026)]{unipd2026lab}
+{Universit\`a degli Studi di Padova}.
+\newblock Inaugurato a padova il nuovo quantum computing lab.
+\newblock
+  \url{https://www.unipd.it/news/inaugurato-padova-nuovo-quantum-computing-lab},
+  marzo 2026.
 
 \end{thebibliography}
