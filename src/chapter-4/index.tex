@@ -1,0 +1,441 @@
+% ═════════════════════════════════════════════════════════════════════════════
+\chapter{Gli algoritmi quantistici}
+\label{chap:algoritmi}
+% ═════════════════════════════════════════════════════════════════════════════
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Che cos'è un algoritmo quantistico}
+\label{sec:alg-intro}
+% ─────────────────────────────────────────────────────────────────────────────
+
+I capitoli precedenti hanno descritto le macchine: come si costruisce un qubit,
+con quali tecnologie, dove si trovano i computer quantistici italiani. Una
+macchina però, da sola, non risolve nulla. Serve sapere \textit{cosa farle
+fare}, ed è questo il compito degli algoritmi.
+
+Un algoritmo quantistico segue quasi sempre lo stesso schema in tre passi:
+
+\begin{enumerate}
+  \item \textbf{Preparazione.} I qubit partono da $\ket{0}$ e vengono messi in
+    sovrapposizione, di solito con una porta di Hadamard su ciascuno. Con $n$
+    qubit si ottiene una combinazione di tutti i $2^n$ valori possibili.
+  \item \textbf{Evoluzione.} Una sequenza di porte modifica le ampiezze di
+    questi valori. L'idea chiave è l'\textbf{interferenza}: le ampiezze delle
+    risposte sbagliate si cancellano tra loro, quelle della risposta giusta si
+    rinforzano.
+  \item \textbf{Misura.} Si leggono i qubit. Il risultato è uno solo, scelto a
+    caso secondo le probabilità finali: se l'algoritmo è ben costruito, la
+    risposta giusta è la più probabile.
+\end{enumerate}
+
+\begin{notabox}
+  Un'idea sbagliata molto diffusa è che il computer quantistico ``provi tutte
+  le soluzioni in parallelo'' e restituisca la migliore. Non è così: alla
+  misura si ottiene un solo risultato, e se le ampiezze fossero tutte uguali
+  sarebbe un risultato a caso. Tutto il lavoro di un algoritmo quantistico sta
+  nel far \textit{interferire} le possibilità in modo che, alla fine, quella
+  giusta abbia la probabilità più alta.
+\end{notabox}
+
+Il capitolo procede in tre tappe. Prima si ricordano i due algoritmi
+``storici'', Grover e Shor, già citati nel Paragrafo~\ref{sec:vantaggi}. Poi si
+passa agli algoritmi pensati per le macchine di oggi, piccole e rumorose. Infine
+si mostra, con un esempio concreto preso da MathWorks, come un problema reale -
+organizzare i giri di consegna di una flotta di furgoni - possa essere
+riscritto in una forma adatta a un computer quantistico.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Gli algoritmi classici della computazione quantistica}
+\label{sec:alg-classici}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\subsection{Grover: cercare un ago nel pagliaio}
+\label{subsec:alg-grover}
+
+Si immagini un elenco di $N$ elementi non ordinato, in cui uno solo soddisfa
+una certa condizione. Un computer classico non ha scorciatoie: deve
+controllarli uno alla volta, e in media ne guarda $N/2$. L'algoritmo di
+Grover~\cite{grover1996fast} trova l'elemento giusto con circa $\sqrt{N}$
+controlli.
+
+Il funzionamento si può descrivere a parole. Si parte da una sovrapposizione
+uniforme, in cui ogni elemento ha la stessa ampiezza. Poi si ripetono due
+operazioni:
+
+\begin{itemize}
+  \item l'\textbf{oracolo} riconosce l'elemento cercato e ne cambia il segno
+    dell'ampiezza, senza dire quale sia;
+  \item la \textbf{diffusione} riflette tutte le ampiezze attorno al loro
+    valore medio: quella col segno invertito, che sta sotto la media, finisce
+    molto sopra.
+\end{itemize}
+
+A ogni ripetizione l'ampiezza dell'elemento cercato cresce un po'. Dopo circa
+$\frac{\pi}{4}\sqrt{N}$ ripetizioni è vicina a 1, e la misura restituisce
+quasi certamente la risposta giusta. La Figura~\ref{fig:grover} mostra lo
+schema del circuito.
+
+\begin{figure}[ht]
+  \centering
+  \begin{quantikz}
+    \lstick{$\ket{0}$} & \gate{H} & \gate[3]{\text{Oracolo}}
+      & \gate[3]{\text{Diffusione}} & \meter{} \\
+    \lstick{$\ket{0}$} & \gate{H} & & & \meter{} \\
+    \lstick{$\ket{0}$} & \gate{H} & & & \meter{}
+  \end{quantikz}
+  \caption{Schema dell'algoritmo di Grover su tre qubit. Il blocco
+    oracolo + diffusione viene ripetuto circa $\frac{\pi}{4}\sqrt{N}$ volte
+    prima della misura.}
+  \label{fig:grover}
+\end{figure}
+
+Il guadagno è \textbf{quadratico}, non esponenziale: per un elenco di un milione
+di voci si passa da circa mezzo milione di controlli a circa ottocento. È un
+miglioramento notevole, ma non trasforma un problema impossibile in uno facile.
+
+\subsection{Shor: fattorizzare i numeri}
+\label{subsec:alg-shor}
+
+L'algoritmo di Shor~\cite{shor1994algorithms} è il motivo per cui i computer
+quantistici sono diventati famosi anche fuori dai laboratori. Scompone un
+numero intero nei suoi fattori primi in tempo polinomiale, mentre i migliori
+metodi classici richiedono un tempo che cresce quasi esponenzialmente con il
+numero di cifre.
+
+L'idea è trasformare la fattorizzazione in un altro problema: trovare il
+\textbf{periodo} di una funzione, cioè ogni quanto essa si ripete. Trovare
+periodi è esattamente ciò in cui la \textit{trasformata di Fourier quantistica}
+eccelle. Una volta noto il periodo, i fattori si ricavano con semplici calcoli
+classici.
+
+La conseguenza pratica è nota: la sicurezza di RSA si basa sul fatto che
+fattorizzare numeri di migliaia di bit è troppo difficile. Un computer
+quantistico abbastanza grande la renderebbe inutile. ``Abbastanza grande'',
+però, significa milioni di qubit fisici con correzione degli errori: molto
+oltre le macchine descritte nei Capitoli~\ref{chap:implementazioni}
+e~\ref{chap:italia}, che arrivano a qualche centinaio.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Gli algoritmi per le macchine di oggi}
+\label{sec:alg-nisq}
+% ─────────────────────────────────────────────────────────────────────────────
+
+Grover e Shor richiedono circuiti lunghi e qubit quasi perfetti. Le macchine
+attuali, chiamate \textbf{NISQ} (\textit{Noisy Intermediate-Scale Quantum},
+cioè ``di media scala e rumorose'')~\cite{preskill2018quantum}, hanno invece
+pochi qubit e perdono la coerenza in fretta. Per sfruttarle si è sviluppata una
+famiglia di algoritmi diversi, detti \textbf{ibridi} o \textbf{variazionali}.
+
+\subsection{L'idea ibrida}
+\label{subsec:alg-ibrido}
+
+Il principio è dividere il lavoro tra due computer:
+
+\begin{itemize}
+  \item il \textbf{computer quantistico} esegue un circuito corto, che
+    dipende da alcuni parametri regolabili (per esempio gli angoli di
+    rotazione delle porte), e misura il risultato;
+  \item il \textbf{computer classico} guarda il risultato, valuta quanto è
+    buono e sceglie nuovi parametri per il giro successivo.
+\end{itemize}
+
+Il ciclo si ripete finché il risultato smette di migliorare. È lo stesso
+meccanismo con cui si addestra una rete neurale: si aggiustano dei parametri
+un passo alla volta. Il vantaggio è che il circuito resta corto, e quindi
+sopravvive al rumore. È anche il motivo per cui un sistema come SOL viene
+installato accanto al supercomputer Leonardo (Paragrafo~\ref{sec:it-ospitate}):
+le due macchine devono parlarsi continuamente.
+
+\subsection{VQE e QAOA}
+\label{subsec:alg-vqe-qaoa}
+
+I due algoritmi variazionali più noti sono:
+
+\begin{itemize}
+  \item il \textbf{VQE} (\textit{Variational Quantum
+    Eigensolver})~\cite{peruzzo2014vqe}, che cerca lo stato di energia minima
+    di una molecola. Serve in chimica e nella scienza dei materiali, ed è
+    l'applicazione più vicina all'idea originale di Feynman di usare un sistema
+    quantistico per simularne un altro~\cite{feynman1982simulating};
+  \item il \textbf{QAOA} (\textit{Quantum Approximate Optimization
+    Algorithm})~\cite{farhi2014qaoa}, che cerca soluzioni buone a problemi di
+    ottimizzazione combinatoria, cioè problemi in cui bisogna scegliere la
+    combinazione migliore tra moltissime possibili.
+\end{itemize}
+
+\subsection{L'annealing quantistico}
+\label{subsec:alg-annealing}
+
+Esiste poi un approccio che non usa porte logiche: l'\textbf{annealing
+quantistico}~\cite{kadowaki1998annealing}. Il problema viene ``scritto''
+direttamente nelle interazioni tra i qubit, in modo che la soluzione migliore
+corrisponda allo stato di energia più bassa. Il sistema parte da uno stato
+semplice e viene trasformato lentamente verso quello che rappresenta il
+problema; se la trasformazione è abbastanza lenta, i qubit restano nello stato
+di energia minima e alla fine indicano la soluzione.
+
+Le macchine di D-Wave lavorano così, e anche la \textit{modalità analogica} di
+SOL descritta nel Paragrafo~\ref{sec:it-ospitate} segue un'idea simile: i qubit
+evolvono con continuità invece di eseguire una sequenza di porte.
+
+\begin{notabox}
+  QAOA e annealing hanno un punto in comune importante: entrambi vogliono il
+  problema scritto nella stessa forma, detta \textbf{QUBO}. Il prossimo
+  paragrafo spiega cos'è, e il successivo mostra come ci si arriva partendo da
+  un problema concreto.
+\end{notabox}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{La forma QUBO}
+\label{sec:alg-qubo}
+% ─────────────────────────────────────────────────────────────────────────────
+
+QUBO sta per \textit{Quadratic Unconstrained Binary Optimization}. Il nome
+contiene già la definizione:
+
+\begin{itemize}
+  \item \textbf{binary}: le variabili valgono solo 0 o 1, come i bit;
+  \item \textbf{quadratic}: il costo da minimizzare contiene al massimo
+    prodotti di due variabili;
+  \item \textbf{unconstrained}: non ci sono vincoli separati. Tutte le regole
+    del problema devono essere già dentro la formula del costo.
+\end{itemize}
+
+In formule, dato un vettore di variabili binarie $x = (x_1, \dots, x_n)$, si
+cerca il valore che rende più piccolo
+\begin{equation}
+  f(x) = \sum_{i} Q_{ii}\, x_i + \sum_{i<j} Q_{ij}\, x_i x_j ,
+  \label{eq:qubo}
+\end{equation}
+dove i numeri $Q_{ij}$ descrivono il problema. Ogni variabile corrisponde a un
+qubit, e ogni coefficiente $Q_{ij}$ diventa un'interazione tra i qubit $i$ e
+$j$.
+
+Resta da capire come si fanno sparire i vincoli. Il trucco si chiama
+\textbf{penalità}: per ogni regola si aggiunge al costo un termine che vale zero
+quando la regola è rispettata e diventa grande quando è violata. Per esempio,
+se esattamente una tra le variabili $x_1, x_2, x_3$ deve valere 1, basta
+aggiungere
+\begin{equation}
+  A\,(1 - x_1 - x_2 - x_3)^2 ,
+  \label{eq:penalita}
+\end{equation}
+che è zero solo se una sola variabile è accesa. Se il numero $A$ è abbastanza
+grande, nessuna soluzione ``furba'' che viola la regola può convenire.
+Moltissimi problemi noti si possono scrivere in questo modo~\cite{lucas2014ising}.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Un esempio concreto: i giri di consegna}
+\label{sec:alg-cvrp}
+% ─────────────────────────────────────────────────────────────────────────────
+
+Per vedere come funziona in pratica si segue un esempio pubblicato da
+MathWorks nella documentazione di MATLAB~\cite{mathworks2026cvrp}, che a sua
+volta riprende il metodo di Feld e colleghi~\cite{feld2019hybrid}.
+
+\subsection{Il problema}
+\label{subsec:alg-cvrp-problema}
+
+Un'azienda ha un magazzino (il \textit{deposito}) e deve consegnare merce a un
+certo numero di clienti. Ogni cliente chiede una quantità diversa, e ogni
+furgone ha una \textbf{capacità} massima. Bisogna decidere quali clienti
+assegnare a ciascun furgone e in che ordine visitarli, in modo che i furgoni
+non siano mai sovraccarichi e che la strada percorsa in totale sia la più
+corta possibile.
+
+È il \textbf{CVRP} (\textit{Capacitated Vehicle Routing Problem}), un problema
+di ogni giorno per corrieri, aziende di distribuzione e servizi di raccolta
+rifiuti. Ed è difficile: il numero di modi possibili di organizzare i giri
+cresce in modo esplosivo con il numero di clienti, e già con poche decine di
+clienti provarli tutti è fuori discussione.
+
+Nell'esempio di MathWorks i dati sono:
+\begin{itemize}
+  \item 24 clienti più il deposito, in posizioni casuali su una mappa;
+  \item richieste dei clienti tra 100 e 2\,500 unità;
+  \item capacità di ogni furgone pari a 6\,000 unità.
+\end{itemize}
+
+\subsection{Dividere il problema in due}
+\label{subsec:alg-cvrp-divisione}
+
+Il CVRP mescola due domande diverse: \textit{chi} va su quale furgone, e
+\textit{in che ordine} visitarli. Il metodo le separa.
+
+\paragraph{Primo passo: formare i gruppi.}
+Si raggruppano i clienti vicini tra loro, con una regola semplice: si parte dal
+cliente più lontano dal deposito, si aggiungono uno alla volta i clienti più
+vicini al gruppo e ci si ferma quando il prossimo farebbe superare la capacità
+del furgone. Poi si ricomincia con i clienti rimasti. Alla fine si fa un
+piccolo ritocco, spostando un cliente in un altro gruppo se gli è più vicino e
+se c'è ancora posto. Ogni gruppo corrisponde a un furgone. Questo passo è
+svolto interamente da un computer classico.
+
+\paragraph{Secondo passo: ordinare ogni gruppo.}
+Dentro ogni gruppo resta da trovare il giro più corto che parte dal deposito,
+tocca tutti i clienti e torna indietro. È il celebre \textbf{problema del
+commesso viaggiatore} (TSP, \textit{Travelling Salesperson Problem}), ed è
+questa la parte che viene affidata al solutore QUBO.
+
+Il vantaggio della divisione è evidente: invece di un unico problema enorme
+con 24 clienti se ne hanno cinque piccoli, ciascuno con una manciata di
+clienti, molto più adatti alle dimensioni delle macchine quantistiche di oggi.
+
+\subsection{Il commesso viaggiatore in forma QUBO}
+\label{subsec:alg-cvrp-tsp}
+
+Per scrivere il TSP con variabili 0/1 si usa una tabella. Se il giro ha $N$
+tappe, si introduce una variabile $x_{i,t}$ per ogni coppia (luogo $i$,
+posizione $t$ nel giro):
+\[
+  x_{i,t} =
+  \begin{cases}
+    1 & \text{se il luogo } i \text{ viene visitato come } t\text{-esima tappa},\\
+    0 & \text{altrimenti.}
+  \end{cases}
+\]
+Una soluzione valida è una tabella $N \times N$ con un solo 1 in ogni riga e
+in ogni colonna, come nell'esempio della Tabella~\ref{tab:tsp-esempio}.
+
+\begin{table}[ht]
+  \centering
+  \renewcommand{\arraystretch}{1.2}
+  \caption{Una soluzione valida per un giro di quattro tappe: il deposito D,
+    poi i clienti C, A e B. Ogni riga e ogni colonna contiene un solo 1.}
+  \label{tab:tsp-esempio}
+  \begin{tabular}{lcccc}
+    \toprule
+    & Tappa 1 & Tappa 2 & Tappa 3 & Tappa 4 \\
+    \midrule
+    Deposito D & 1 & 0 & 0 & 0 \\
+    Cliente A  & 0 & 0 & 1 & 0 \\
+    Cliente B  & 0 & 0 & 0 & 1 \\
+    Cliente C  & 0 & 1 & 0 & 0 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Il costo da minimizzare è formato da tre pezzi:
+\begin{equation}
+  \begin{split}
+    f(x) ={} & \underbrace{A \sum_{i} \Bigl(1 - \sum_{t} x_{i,t}\Bigr)^{2}}_{\text{ogni luogo una volta}}
+      + \underbrace{A \sum_{t} \Bigl(1 - \sum_{i} x_{i,t}\Bigr)^{2}}_{\text{ogni tappa un luogo}} \\
+    & + \underbrace{\sum_{i \neq j} d_{ij} \sum_{t} x_{i,t}\, x_{j,t+1}}_{\text{lunghezza del giro}} .
+  \end{split}
+  \label{eq:tsp-qubo}
+\end{equation}
+
+I primi due termini sono penalità dello stesso tipo
+dell'Equazione~\eqref{eq:penalita}: valgono zero solo se la tabella ha un 1 per
+riga e un 1 per colonna. Il terzo termine somma la distanza $d_{ij}$ tra due
+luoghi ogni volta che il luogo $j$ viene visitato subito dopo il luogo $i$
+(dopo l'ultima tappa si torna alla prima, perché il furgone rientra al
+deposito). Il peso $A$ va scelto più grande delle distanze in gioco: nell'esempio
+MathWorks si parte dalla distanza massima tra due luoghi, così che violare una
+regola costi sempre più di qualunque percorso.
+
+Il prezzo di questa scrittura è il numero di variabili: servono $N^2$ qubit
+per un giro di $N$ tappe. Un gruppo con cinque luoghi richiede 25 qubit, uno
+con dieci ne richiede 100. Ecco perché il primo passo, che spezza il problema
+in gruppi piccoli, è indispensabile.
+
+\subsection{Risolvere e verificare}
+\label{subsec:alg-cvrp-soluzione}
+
+In MATLAB il procedimento richiede poche righe: si costruisce la matrice $Q$,
+la si passa alla funzione \texttt{qubo} e si chiama \texttt{solve}.
+
+\begin{lstlisting}[language=Matlab, basicstyle=\small\ttfamily, frame=single,
+  caption={Costruzione e soluzione di un QUBO in MATLAB (schema semplificato).},
+  label={lst:matlab-qubo}]
+qprob = qubo(QN, c, d);   % matrice quadratica, termine lineare, costante
+result = solve(qprob);    % per default: ricerca tabu, classica
+x = result.BestX;         % vettore 0/1 con la soluzione
+\end{lstlisting}
+
+Dopo ogni soluzione si controlla che la tabella rispetti davvero le regole
+(un 1 per riga e per colonna); se non le rispetta si ripete il calcolo, fino a
+dieci tentativi. Il risultato dell'esempio sono \textbf{cinque giri}, con
+carichi di 5\,000, 5\,800, 5\,400, 4\,600 e 5\,700 unità: tutti sotto il limite
+di 6\,000.
+
+\begin{notabox}
+  Un dettaglio va detto con onestà: nell'esempio MathWorks il QUBO
+  \textbf{non viene risolto su un computer quantistico}, ma con una
+  \textit{ricerca tabu}, un metodo classico che esplora le soluzioni vicine
+  evitando di tornare su quelle già viste. Il valore dell'esempio non sta nel
+  solutore, ma nella \textbf{formulazione}: lo stesso QUBO, senza cambiare una
+  riga, può essere passato a un annealer quantistico o tradotto in un circuito
+  QAOA. Ed è proprio la formulazione la parte più difficile del lavoro.
+\end{notabox}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Cosa aspettarsi davvero}
+\label{sec:alg-realismo}
+% ─────────────────────────────────────────────────────────────────────────────
+
+L'esempio dei furgoni aiuta anche a capire dove siamo oggi. La
+Tabella~\ref{tab:alg-sintesi} riassume gli algoritmi visti nel capitolo.
+
+\begin{table}[ht]
+  \centering
+  \renewcommand{\arraystretch}{1.3}
+  \caption{Sintesi degli algoritmi quantistici presentati.}
+  \label{tab:alg-sintesi}
+  \begin{tabularx}{\textwidth}{>{\bfseries}lXXl}
+    \toprule
+    Algoritmo & A cosa serve & Guadagno & Hardware \\
+    \midrule
+    Grover    & Ricerca           & Quadratico                  & Futuro \\
+    Shor      & Fattorizzazione   & Esponenziale                & Futuro \\
+    VQE       & Chimica, materiali & Da dimostrare              & Oggi (NISQ) \\
+    QAOA      & Ottimizzazione    & Da dimostrare               & Oggi (NISQ) \\
+    Annealing & Ottimizzazione    & Da dimostrare               & Oggi \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+La tabella mostra una specie di paradosso. Gli algoritmi con un vantaggio
+\textit{dimostrato}, Grover e Shor, richiedono macchine che ancora non
+esistono. Quelli che girano sulle macchine di oggi non hanno, per ora, un
+vantaggio dimostrato rispetto ai buoni metodi classici: per un problema come
+il CVRP esistono euristiche classiche molto raffinate, e battere quelle è
+difficile.
+
+Questo non rende gli algoritmi ibridi inutili. Servono a imparare a
+\textbf{formulare} i problemi in modo quantistico, a capire come si comportano
+le macchine reali e a preparare il terreno per quando l'hardware sarà
+migliorato. È lo stesso spirito con cui sono nate le piattaforme italiane del
+Capitolo~\ref{chap:italia}: aperte a ricercatori e imprese proprio perché ci
+si possa esercitare oggi su problemi veri.
+
+Anche per il diamante il discorso è lo stesso. Con pochi qubit ben controllati
+e tempi di coerenza lunghi (Paragrafo~\ref{subsec:nv-coerenza}), i processori
+a centri NV sono candidati naturali per circuiti variazionali piccoli, e i
+collegamenti fotonici tra centri diversi potrebbero un giorno permettere di
+distribuire un problema su più nodi, così come l'esempio dei furgoni lo
+distribuisce su più gruppi.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Conclusioni del Capitolo}
+\label{sec:alg-conclusioni}
+% ─────────────────────────────────────────────────────────────────────────────
+
+Un algoritmo quantistico non prova tutte le soluzioni insieme: prepara una
+sovrapposizione e la fa interferire in modo che la risposta giusta diventi la
+più probabile. Grover e Shor mostrano fin dove può arrivare questa idea, con
+guadagni quadratici ed esponenziali, ma chiedono macchine grandi e quasi prive
+di errori.
+
+Per le macchine di oggi si usano algoritmi ibridi come VQE e QAOA, o
+l'annealing quantistico, in cui il computer quantistico lavora insieme a quello
+classico. Molti di questi metodi richiedono che il problema sia scritto in
+forma QUBO, cioè come una funzione di variabili 0/1 in cui le regole diventano
+penalità.
+
+L'esempio dei giri di consegna ha mostrato questo percorso dall'inizio alla
+fine: un problema logistico reale viene diviso in parti piccole, ogni parte
+diventa un commesso viaggiatore, e ogni commesso viaggiatore diventa una
+tabella di qubit. Il passo più difficile non è premere ``esegui'' su una
+macchina quantistica, ma arrivare a una formulazione che quella macchina sia in
+grado di capire.

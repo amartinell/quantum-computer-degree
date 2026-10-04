@@ -111,13 +111,31 @@
   \end{minipage}
 
   \vfill
-  {\large Anno Accademico 2023--2026}
+  {\large Anno Accademico 2022--2026}
 \end{titlepage}
 
 % Abstract
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
-Sommario
+Questa tesi offre una panoramica sulla computazione quantistica, partendo dalle
+idee di base fino alle sue applicazioni pratiche.
+
+Il primo capitolo introduce i concetti fondamentali, come qubit,
+sovrapposizione ed entanglement, e confronta i computer quantistici con quelli
+classici, evidenziandone vantaggi e limiti. Il secondo capitolo descrive le
+principali tecnologie usate per costruire i qubit (superconduttori, trappole
+ioniche, fotoni e qubit topologici), con particolare attenzione ai centri NV
+nel diamante, che possono funzionare anche a temperatura ambiente. Il terzo
+capitolo guarda alla situazione italiana: le piattaforme di ricerca nate con i
+fondi PNRR, le macchine ospitate nel Paese e la filiera dei componenti. Il
+quarto capitolo presenta gli algoritmi quantistici, dai classici Grover e Shor
+ai metodi ibridi pensati per le macchine di oggi, e mostra con un esempio
+concreto, i giri di consegna di un corriere, come un problema reale possa
+essere tradotto in una forma risolvibile da un computer quantistico.
+
+Ne emerge un quadro in cui la tecnologia è promettente ma ancora giovane: la
+vera sfida, oggi, non è solo costruire macchine più grandi, ma imparare a
+formulare i problemi in modo che queste macchine possano risolverli.
 
 \newpage
 \thispagestyle{empty}
@@ -137,11 +155,14 @@ Sommario
 \input{chapter-1/index}
 \input{chapter-2/index}
 \input{chapter-3/index}
+\input{chapter-4/index}
 
 % ── Bibliography ──────────────────────────────────────────────────────────────
-% \cleardoublepage
-% \bibliographystyle{plainnat}
-% \bibliography{references}
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\bibname}
+\bibliographystyle{plainnat}
+\bibliography{references}
 
 % Ringraziamenti
 \chapter*{Ringraziamenti}
@@ -152,8 +173,7 @@ Sommario
   A chi, invece, ha provato ed è caduto, fallendo.\\[\bigskipamount]
   A me stesso, perché i traguardi importanti vanno sempre festeggiati.\\[\bigskipamount]
   A chi ha lottato in silenzio, sperando che qualcuno si accorgesse.\\
-  E a chi, accorgendosi, ha fatto la differenza.
-  \newline
+  E a chi, accorgendosi, ha fatto la differenza.\\[\bigskipamount]
   Questa tesi è per voi.
 
 \end{document}

@@ -54,4 +54,24 @@
 \contentsline {paragraph}{La sensoristica.}{26}{section*.13}%
 \contentsline {section}{\numberline {3.7}Quadro d'insieme}{27}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Conclusioni del Capitolo}{28}{section.3.8}%
-\contentsline {chapter}{Ringraziamenti}{29}{chapter*.14}%
+\contentsline {chapter}{\numberline {4}Gli algoritmi quantistici}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Che cos'è un algoritmo quantistico}{29}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Gli algoritmi classici della computazione quantistica}{30}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Grover: cercare un ago nel pagliaio}{30}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Shor: fattorizzare i numeri}{31}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Gli algoritmi per le macchine di oggi}{31}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}L'idea ibrida}{31}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}VQE e QAOA}{32}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}L'annealing quantistico}{32}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}La forma QUBO}{32}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Un esempio concreto: i giri di consegna}{33}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Il problema}{33}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Dividere il problema in due}{34}{subsection.4.5.2}%
+\contentsline {paragraph}{Primo passo: formare i gruppi.}{34}{section*.14}%
+\contentsline {paragraph}{Secondo passo: ordinare ogni gruppo.}{34}{section*.15}%
+\contentsline {subsection}{\numberline {4.5.3}Il commesso viaggiatore in forma QUBO}{34}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Risolvere e verificare}{35}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Cosa aspettarsi davvero}{36}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Conclusioni del Capitolo}{37}{section.4.7}%
+\contentsline {chapter}{Bibliografia}{39}{section*.16}%
+\contentsline {chapter}{Ringraziamenti}{43}{chapter*.18}%

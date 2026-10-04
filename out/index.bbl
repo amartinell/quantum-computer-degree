@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{38}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -71,8 +71,21 @@ Christian~L. Degen, Friedemann Reinhard, and Paola Cappellaro.
 
 \bibitem[DiVincenzo(2000)]{divincenzo2000physical}
 David~P. DiVincenzo.
-\newblock \emph{The Physical Implementation of Quantum Computation}, volume~48.
-\newblock 2000.
+\newblock The physical implementation of quantum computation.
+\newblock \emph{Fortschritte der Physik}, 48:\penalty0 771--783, 2000.
+
+\bibitem[Farhi et~al.(2014)Farhi, Goldstone, and Gutmann]{farhi2014qaoa}
+Edward Farhi, Jeffrey Goldstone, and Sam Gutmann.
+\newblock A quantum approximate optimization algorithm.
+\newblock arXiv:1411.4028, 2014.
+
+\bibitem[Feld et~al.(2019)Feld, Roch, Gabor, Seidel, Neukart, Galter, Mauerer,
+  and Linnhoff-Popien]{feld2019hybrid}
+Sebastian Feld, Christoph Roch, Thomas Gabor, Christian Seidel, Florian
+  Neukart, Isabella Galter, Wolfgang Mauerer, and Claudia Linnhoff-Popien.
+\newblock A hybrid solution method for the capacitated vehicle routing problem
+  using a quantum annealer.
+\newblock \emph{Frontiers in ICT}, 6:\penalty0 13, 2019.
 
 \bibitem[Feynman(1982)]{feynman1982simulating}
 Richard~P. Feynman.
@@ -123,6 +136,11 @@ Bas Hensen et~al.
 \newblock \url{https://www.inrim.it}, maggio 2025.
 \newblock Cinque qubit superconduttori operanti a 20\,mK.
 
+\bibitem[Kadowaki and Nishimori(1998)]{kadowaki1998annealing}
+Tadashi Kadowaki and Hidetoshi Nishimori.
+\newblock Quantum annealing in the transverse ising model.
+\newblock \emph{Physical Review E}, 58\penalty0 (5):\penalty0 5355--5363, 1998.
+
 \bibitem[Kitaev(2003)]{kitaev2003fault}
 Alexei Kitaev.
 \newblock Fault-tolerant quantum computation by anyons.
@@ -137,6 +155,11 @@ Emanuel Knill, Raymond Laflamme, and Gerard~J. Milburn.
 Jens Koch et~al.
 \newblock Charge-insensitive qubit design derived from the cooper pair box.
 \newblock \emph{Physical Review A}, 76:\penalty0 042319, 2007.
+
+\bibitem[Lucas(2014)]{lucas2014ising}
+Andrew Lucas.
+\newblock Ising formulations of many {NP} problems.
+\newblock \emph{Frontiers in Physics}, 2:\penalty0 5, 2014.
 
 \bibitem[Maurer et~al.(2012)]{maurer2012room}
 Peter~C. Maurer et~al.
@@ -179,6 +202,13 @@ Michael~A. Nielsen and Isaac~L. Chuang.
 \newblock \url{https://www.supercomputing-icsc.it}, febbraio 2026.
 \newblock Sistema SOL, 140 qubit; inaugurazione 11 giugno 2026.
 
+\bibitem[Peruzzo et~al.(2014)Peruzzo, McClean, Shadbolt, Yung, Zhou, Love,
+  Aspuru-Guzik, and O'Brien]{peruzzo2014vqe}
+Alberto Peruzzo, Jarrod McClean, Peter Shadbolt, Man-Hong Yung, Xiao-Qi Zhou,
+  Peter~J. Love, Al\'an Aspuru-Guzik, and Jeremy~L. O'Brien.
+\newblock A variational eigenvalue solver on a photonic quantum processor.
+\newblock \emph{Nature Communications}, 5:\penalty0 4213, 2014.
+
 \bibitem[{Planckian}(2026)]{planckian2026}
 {Planckian}.
 \newblock Next generation quantum processor: architettura superconduttiva a
@@ -205,6 +235,14 @@ Peter~W. Shor.
   factoring.
 \newblock \emph{Proceedings of the 35th Annual Symposium on Foundations of
   Computer Science}, pages 124--134, 1994.
+
+\bibitem[{The MathWorks, Inc.}(2026)]{mathworks2026cvrp}
+{The MathWorks, Inc.}
+\newblock Capacitated vehicle routing.
+\newblock Documentazione MATLAB,
+  \url{https://it.mathworks.com/help/matlab/math/quantum-capacitated-vehicle-routing.html},
+  2026.
+\newblock 24 clienti, capacit\`a 6\,000 unit\`a; QUBO risolto con ricerca tabu.
 
 \bibitem[{Universit\`a degli Studi di Padova}(2026)]{unipd2026lab}
 {Universit\`a degli Studi di Padova}.
