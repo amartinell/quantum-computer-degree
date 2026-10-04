@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex /Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index"] 1791103745.43813 "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux" "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.bbl" "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index" 1791103807.92877 0
+["bibtex /Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index"] 1791104300.76039 "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux" "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.bbl" "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index" 1791104302.6596 0
   "./references.bib" 1791017452.44521 12650 81ece701a379abe09ecdb25d78745189 ""
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux" 1791103807.61303 24875 97c90a7936fe2a1b4883f7b06d087252 "pdflatex"
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux" 1791104302.36066 27525 42df7fbaedf0ea5f39c85b21f2d8d2ab "pdflatex"
   "/usr/local/texlive/2026/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
   (generated)
   "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.bbl"
   "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.blg"
   (rewritten before read)
-["pdflatex"] 1791103806.01189 "index.tex" "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.pdf" "index" 1791103807.92895 0
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux" 1791103807.61303 24875 97c90a7936fe2a1b4883f7b06d087252 "pdflatex"
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.bbl" 1791103745.59941 11167 715c83a3a2ab1b09f49af6495f37dd37 "bibtex /Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index"
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lof" 1791103807.61611 1205 6cc2a16925c9fe8549594ee510d3b11b "pdflatex"
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lot" 1791103807.61614 1023 d5efa6a43c63262c75878ede0613cdd6 "pdflatex"
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.out" 1791103807.6157 13596 0ef8990495b31cacf392880fede22f8d "pdflatex"
-  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.toc" 1791103807.61603 6876 cd47e8b7c843b00f3af1689cb7dc2f8a "pdflatex"
+["pdflatex"] 1791104300.8615 "index.tex" "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.pdf" "index" 1791104302.65977 0
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux" 1791104302.36066 27525 42df7fbaedf0ea5f39c85b21f2d8d2ab "pdflatex"
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.bbl" 1791104300.85487 11167 715c83a3a2ab1b09f49af6495f37dd37 "bibtex /Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index"
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lof" 1791104302.36359 2484 abb82f5d5223581d717d333cce9cc6af "pdflatex"
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.lot" 1791104302.36362 1023 039d44af3461cf120601a188fe5ecb2c "pdflatex"
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.out" 1791104302.3633 13596 0ef8990495b31cacf392880fede22f8d "pdflatex"
+  "/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.toc" 1791104302.36352 6876 1498e2b217de2719c46690fe751102dd "pdflatex"
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -264,10 +264,15 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1782661129 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1782660977 3636769 51e4920f8e110022c0f66eaa1239b9e5 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
+  "assets/chapter-3/firenze-atomi.jpg" 1791104245.77036 292426 8c713e566eacfd28ab8a5c6c99c62368 ""
+  "assets/chapter-3/iqm-torino.jpg" 1791104245.93316 557377 9a7f8841b37e2c3fa53c62fb19b2edb7 ""
+  "assets/chapter-3/padova-ioni.jpg" 1791104245.77375 276212 bc5f0f4163e1703351655c44e09f7fe1 ""
+  "assets/chapter-3/partenope.jpg" 1791104245.76337 639866 7a346f3c88e5661a54a39bd05b17b526 ""
+  "assets/chapter-3/qolossus.jpg" 1791104245.76713 127232 8b34dfb1f5c76dc955730a95ad3525f6 ""
   "assets/logo-unicusano.png" 1782663346.90104 116195 ab85502b6963841331f05bbb8fbcd44d ""
   "chapter-1/index.tex" 1786555877.07812 16905 d5e910583bf44a2154f510d69e3a5781 ""
   "chapter-2/index.tex" 1791017438.25855 38417 3de8f35f24871dd84fd258b13c952b39 ""
-  "chapter-3/index.tex" 1787498312.55269 26941 df7f766efc83bcc0f46d04e14866ab24 ""
+  "chapter-3/index.tex" 1791104298.51216 28630 66b3c5f06560b84e68064538d4d66e5e ""
   "chapter-4/index.tex" 1791017332.94156 23400 4be45e909a40f089e68ec0e008ad2a15 ""
   "index.tex" 1791103793.58843 7998 8251c3c9d611e89341e4b116340e9cc0 ""
   (generated)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  4 OCT 2026 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  4 OCT 2026 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1241,7 +1241,50 @@ n/12 (-20) pom-pa pre-fe-ren-zial-men-te la po-po-la-zio-ne in $\OML/ztmcm/m/it
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ [][] [][]\T1/ptm/m/n/12 (-7) Ricercatori del Di-par-ti-men-to di Fi-si-ca \T1/
+ptm/m/it/12 (-7) Et-to-re Pan-ci-ni \T1/ptm/m/n/12 (-7) al la-vo-ro sul crio-st
+a- 
+ []
+
+
+Overfull \hbox (16.4418pt too wide) in paragraph at lines 9--9
+ \T1/ptm/m/n/12 (-20) to di Par-te-no-pe du-ran-te l'in-stal-la-zio-ne del nuo-
+vo pro-ces-so-re a 64 qu-bit (2026). 
+ []
+
+
+Overfull \hbox (5.47224pt too wide) in paragraph at lines 10--10
+ [][] [][]\T1/ptm/m/n/12 (-20) I rack di Qo-los-sus 2.0 al-la Sa-pien-za, con i
+ mo-du-li fo-to-ni-ci eti-chet-ta-ti \T1/ptm/m/it/12 (-20) Qo-los- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+ [][] [][]\T1/ptm/m/n/12 (-15) Il ban-co ot-ti-co del-la piat-ta-for-ma ad ato-
+mi neu-tri del CNR a Se-sto Fio-ren-ti- 
+ []
+
+
+Overfull \hbox (1.46628pt too wide) in paragraph at lines 12--12
+ [][] [][]\T1/ptm/m/n/12 (-20) L'edificio del Quan-tum Com-pu-ting Lab del-l'U-
+ni-ver-si-tà di Pa-do-va il gior-no 
+ []
+
+
+Overfull \hbox (2.92616pt too wide) in paragraph at lines 13--13
+ [][] [][]\T1/ptm/m/n/12 (-20) Il com-pu-ter quan-ti-sti-co IQM a 5 qu-bit nel 
+da-ta cen-ter del Po-li-tec-ni-co di To- 
+ []
+
+
+Overfull \hbox (4.94601pt too wide) in paragraph at lines 13--13
+ \T1/ptm/m/n/12 (-20) ri-no: al cen-tro il crio-sta-to (il ci-lin-dro bian-co),
+ a si-ni-stra il pan-nel-lo del si-ste- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
  [][] [][]\T1/ptm/m/n/12 (-15) Schema del-l'al-go-rit-mo di Gro-ver su tre qu-b
 it. Il bloc-co ora-co-lo + dif-fu-sio- 
  []
@@ -1595,78 +1638,171 @@ Overfull \hbox (0.10951pt too wide) in paragraph at lines 88--95
  []
 
 [21]
-Overfull \hbox (0.2208pt too wide) in paragraph at lines 134--140
+<assets/chapter-3/partenope.jpg, id=588, 2569.6pt x 1445.4pt>
+File: assets/chapter-3/partenope.jpg Graphic file (type jpg)
+<use assets/chapter-3/partenope.jpg>
+Package pdftex.def Info: assets/chapter-3/partenope.jpg  used on input line 122
+.
+(pdftex.def)             Requested size: 362.77525pt x 204.05286pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]\T1/ptm/m/n/12 (+20) Figura 3.1: []Ricercatori del Di-par-ti-men-to di Fi-si-
+ca \T1/ptm/m/it/12 (+20) Et-to-re Pan-ci-ni \T1/ptm/m/n/12 (+20) al la-vo-ro su
+l crio-sta-to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\T1/ptm/m/n/12 (+20) di Par-te-no-pe du-ran-te l'in-stal-la-zio-ne del nuo-vo p
+ro-ces-so-re a 64 qu-bit (2026). Fon-te:
+ []
+
+
+Underfull \vbox (badness 2762) has occurred while \output is active []
+
+ [22 <./assets/chapter-3/partenope.jpg>]
+Overfull \hbox (0.2208pt too wide) in paragraph at lines 141--147
 []\T1/ptm/m/n/12 (+20) L'elemento più si-gni-fi-ca-ti-vo è che il cuo-re del-la
  mac-chi-na è \T1/ptm/b/n/12 (+20) ita-lia-no\T1/ptm/m/n/12 (+20) : il pro-ces-
 so-re fo-to- 
  []
 
-[22]
-Overfull \hbox (0.1859pt too wide) in paragraph at lines 160--170
+<assets/chapter-3/qolossus.jpg, id=597, 813.0375pt x 508.14844pt>
+File: assets/chapter-3/qolossus.jpg Graphic file (type jpg)
+<use assets/chapter-3/qolossus.jpg>
+Package pdftex.def Info: assets/chapter-3/qolossus.jpg  used on input line 150.
+
+(pdftex.def)             Requested size: 362.77525pt x 226.73401pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]\T1/ptm/m/n/12 (+20) Figura 3.2: []I rack di Qo-los-sus 2.0 al-la Sa-pien-za,
+ con i mo-du-li fo-to-ni-ci eti-chet-ta-ti \T1/ptm/m/it/12 (+20) Qo-los-
+ []
+
+[23 <./assets/chapter-3/qolossus.jpg>]
+<assets/chapter-3/firenze-atomi.jpg, id=605, 1927.2pt x 1084.05pt>
+File: assets/chapter-3/firenze-atomi.jpg Graphic file (type jpg)
+<use assets/chapter-3/firenze-atomi.jpg>
+Package pdftex.def Info: assets/chapter-3/firenze-atomi.jpg  used on input line
+ 176.
+(pdftex.def)             Requested size: 362.77525pt x 204.05286pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+[]\T1/ptm/m/n/12 (+9) Figura 3.3: []Il ban-co ot-ti-co del-la piat-ta-for-ma ad
+ ato-mi neu-tri del CNR a Se-sto Fio-ren-ti-no,
+ []
+
+
+Overfull \hbox (0.1859pt too wide) in paragraph at lines 181--191
 \T1/ptm/m/n/12 (+4) gri-glie re-go-la-ri mol-to den-se, il che ren-de que-sta p
 iat-ta-for-ma par-ti-co-lar-men-te pro-met-ten-te 
  []
 
 
-Overfull \hbox (0.1514pt too wide) in paragraph at lines 160--170
+Overfull \hbox (0.1514pt too wide) in paragraph at lines 181--191
 \T1/ptm/m/n/12 (+2) si ec-ci-ta-no gli ato-mi in sta-ti di \T1/ptm/b/n/12 (+2) 
 Ryd-berg\T1/ptm/m/n/12 (+2) , sta-ti in cui l'e-let-tro-ne più ester-no è co-sì
  lon-ta-no 
  []
 
 
-Overfull \hbox (0.18344pt too wide) in paragraph at lines 171--177
+Overfull \hbox (0.18344pt too wide) in paragraph at lines 192--198
 \T1/ptm/m/n/12 (+15) con il con-cor-so di NQ-STI. Va-le la pe-na no-ta-re la co
 in-ci-den-za: è la stes-sa tec-no-lo-gia del- 
  []
 
-[23] [24]
-Overfull \hbox (0.16803pt too wide) in paragraph at lines 270--279
+[24 <./assets/chapter-3/firenze-atomi.jpg>]
+<assets/chapter-3/padova-ioni.jpg, id=615, 321.1197pt x 236.082pt>
+File: assets/chapter-3/padova-ioni.jpg Graphic file (type jpg)
+<use assets/chapter-3/padova-ioni.jpg>
+Package pdftex.def Info: assets/chapter-3/padova-ioni.jpg  used on input line 2
+16.
+(pdftex.def)             Requested size: 362.77525pt x 266.7263pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[]\T1/ptm/m/n/12 (+20) Figura 3.4: []L'edificio del Quan-tum Com-pu-ting Lab de
+l-l'U-ni-ver-si-tà di Pa-do-va il gior-no
+ []
+
+[25 <./assets/chapter-3/padova-ioni.jpg>]
+<assets/chapter-3/iqm-torino.jpg, id=624, 2409.0pt x 1604.99625pt>
+File: assets/chapter-3/iqm-torino.jpg Graphic file (type jpg)
+<use assets/chapter-3/iqm-torino.jpg>
+Package pdftex.def Info: assets/chapter-3/iqm-torino.jpg  used on input line 27
+4.
+(pdftex.def)             Requested size: 362.77525pt x 241.69417pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+[]\T1/ptm/m/n/12 (+20) Figura 3.5: []Il com-pu-ter quan-ti-sti-co IQM a 5 qu-bi
+t nel da-ta cen-ter del Po-li-tec-ni-co di
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+\T1/ptm/m/n/12 (+20) To-ri-no: al cen-tro il crio-sta-to (il ci-lin-dro bian-co
+), a si-ni-stra il pan-nel-lo del si-ste-ma di
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+\T1/ptm/m/n/12 (+20) raf-fred-da-men-to e a de-stra il rack del-l'e-let-tro-ni-
+ca di con-trol-lo. Fon-te: Po-li-tec-ni-co di
+ []
+
+[26]
+Overfull \hbox (0.16803pt too wide) in paragraph at lines 305--314
 \T1/ptm/m/n/12 (+6) sotto dei transmon commerciali, che superano abitualmente i
  100$\OML/ztmcm/m/it/12 ^^V$\T1/ptm/m/n/12 (+6) s. Non siamo davanti 
  []
 
-[25]
-Overfull \hbox (0.10599pt too wide) in paragraph at lines 306--312
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27 <./assets/chapter-3/iqm-torino.jpg>]
+Overfull \hbox (0.10599pt too wide) in paragraph at lines 341--347
 \T1/ptm/m/it/12 (+11) ca-tions Ita-ly\T1/ptm/m/n/12 (+11) ), spin-off del CNR-I
 NO na-ta a Fi-ren-ze nel 2020 e og-gi con-trol-la-ta da Tel-sy 
  []
 
-
-Overfull \hbox (0.1109pt too wide) in paragraph at lines 339--348
+[28]
+Overfull \hbox (0.1109pt too wide) in paragraph at lines 374--383
  []\T1/ptm/b/n/12 (+16) La sen-so-ri-sti-ca.[] \T1/ptm/m/n/12 (+16) L'al-tro fr
 on-te è quel-lo de-scrit-to nel Pa-ra-gra-fo []2.7[]: usa-re il cen-tro NV 
  []
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
 []|\T1/ptm/m/n/12 (+20) CINECA, Bo-lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
 []|\T1/ptm/m/n/12 (+20) Federico II, Na-
  []
 
 
-Overfull \hbox (0.1252pt too wide) in paragraph at lines 386--394
+Overfull \hbox (0.1252pt too wide) in paragraph at lines 421--429
 \T1/ptm/m/n/12 (+2) te in-stal-la-ta in Ita-lia non è ita-lia-na: il di-va-rio 
 di sca-la tra i 140 qu-bit di SOL e le piat-ta-for- 
  []
 
 
-Overfull \hbox (0.18657pt too wide) in paragraph at lines 386--394
+Overfull \hbox (0.18657pt too wide) in paragraph at lines 421--429
 \T1/ptm/m/n/12 (+2) me na-zio-na-li è net-to. La se-con-da è che l'u-ni-ca ri-g
 a in-te-ra-men-te ita-lia-na dal pro-ces-so-re in 
  []
 
-[27]) (./chapter-4/index.tex
-Overfull \hbox (0.14508pt too wide) in paragraph at lines 421--2
+
+Underfull \vbox (badness 7704) has occurred while \output is active []
+
+ [29])
+(./chapter-4/index.tex
+Overfull \hbox (0.14508pt too wide) in paragraph at lines 456--2
 \T1/ptm/m/n/12 (+2) sul calcolo. Se il diamante diventerà una piattaforma di ca
 lcolo credibile - e il Capitolo []2[] 
  []
 
-[28]
+[30]
 Capitolo 4.
 
 Overfull \hbox (0.10445pt too wide) in paragraph at lines 40--46
@@ -1674,7 +1810,7 @@ Overfull \hbox (0.10445pt too wide) in paragraph at lines 40--46
 i di con-se-gna di una flot-ta di fur-go-ni - 
  []
 
-[29
+[31
 
 ]
 Overfull \hbox (0.12619pt too wide) in paragraph at lines 92--95
@@ -1689,7 +1825,7 @@ Overfull \hbox (0.12395pt too wide) in paragraph at lines 99--104
 antistici sono diventati famosi 
  []
 
-[30]
+[32]
 Overfull \hbox (0.1438pt too wide) in paragraph at lines 123--128
 \T1/ptm/m/n/12 (+4) ma-te \T1/ptm/b/n/12 (+4) NI-SQ \T1/ptm/m/n/12 (+4) (\T1/pt
 m/m/it/12 (+4) Noi-sy Intermediate-Scale Quan-tum\T1/ptm/m/n/12 (+4) , cioè ``d
@@ -1708,7 +1844,7 @@ Overfull \hbox (0.16225pt too wide) in paragraph at lines 142--148
 un passo alla volta. Il vantaggio 
  []
 
-[31]
+[33]
 Overfull \hbox (0.11705pt too wide) in paragraph at lines 160--164
 []\T1/ptm/m/n/12 (+5) il \T1/ptm/b/n/12 (+5) QAOA \T1/ptm/m/n/12 (+5) (\T1/ptm/
 m/it/12 (+5) Quan-tum Ap-pro-xi-ma-te Op-ti-mi-za-tion Al-go-ri-thm\T1/ptm/m/n/
@@ -1721,13 +1857,13 @@ Overfull \hbox (0.11197pt too wide) in paragraph at lines 200--202
 separati. Tutte le regole del problema devono 
  []
 
-[32] [33]
+[34] [35]
 Underfull \hbox (badness 10000) in paragraph at lines 304--304
 []\T1/ptm/m/n/12 (+6) Tabella 4.1: []Una so-lu-zio-ne va-li-da per un gi-ro di 
 quat-tro tap-pe: il de-po-si-to D, poi i clien-ti
  []
 
-[34]
+[36]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1747,18 +1883,18 @@ Overfull \hbox (0.98495pt too wide) in paragraph at lines 352--353
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[35{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+[37{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 }]
 Underfull \vbox (badness 3769) has occurred while \output is active []
 
- [36])
-[37] [38
+ [38])
+[39] [40
 
 ]
 (/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.bbl
-[39
+[41
 
-] [40]
+] [42]
 Underfull \hbox (badness 3954) in paragraph at lines 177--183
 []\T1/ptm/m/n/12 (+20) Ministero del-l'U-ni-ver-si-tà e del-la Ri-cer-ca.  Stra
 -te-gia ita-lia-na per 
@@ -1770,7 +1906,7 @@ Underfull \hbox (badness 6300) in paragraph at lines 177--183
 s : / / www . mur . gov . it / it / 
  []
 
-[41]
+[43]
 Underfull \hbox (badness 2512) in paragraph at lines 240--246
 []\T1/ptm/m/n/12 (+20) The Ma-th-Works, Inc.  Ca-pa-ci-ta-ted ve-hi-cle rou-tin
 g.  Do-cu-men-ta- 
@@ -1794,13 +1930,13 @@ Underfull \hbox (badness 5403) in paragraph at lines 248--253
  / www . unipd . it / news / 
  []
 
-) [42]
+) [44]
 Overfull \hbox (0.10327pt too wide) in paragraph at lines 170--170
 \T1/ptm/m/n/12 (+12) A chi mi è stato vicino nei momenti difficili, insegnandom
 i che presentarsi e parlare è la 
  []
 
-[43
+[45
 
 ]
 (/Users/a.martinelli/WebstormProjects/quantum-computer-degree/out/index.aux)
@@ -1812,10 +1948,10 @@ Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: 0EF8990495B31CACF392880FEDE22F8D;13596.
  ) 
 Here is how much of TeX's memory you used:
- 34244 strings out of 467525
- 637458 string characters out of 5418982
- 1298080 words of memory out of 5000000
- 61892 multiletter control sequences out of 15000+600000
+ 34291 strings out of 467525
+ 638932 string characters out of 5418982
+ 1301090 words of memory out of 5000000
+ 61932 multiletter control sequences out of 15000+600000
  735030 words of font info for 421 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,26n,113p,1931b,1860s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1835,10 +1971,10 @@ e1/urw/times/utmbi8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8
 a.pfb>
 Output written on /Users/a.martinelli/WebstormProjects/quantum-computer-degree/
-out/index.pdf (51 pages, 384153 bytes).
+out/index.pdf (53 pages, 2282054 bytes).
 PDF statistics:
- 882 PDF objects out of 1000 (max. 8388607)
- 788 compressed objects within 8 object streams
- 207 named destinations out of 1000 (max. 500000)
- 112658 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 916 PDF objects out of 1000 (max. 8388607)
+ 814 compressed objects within 9 object streams
+ 214 named destinations out of 1000 (max. 500000)
+ 112683 words of extra memory for PDF output out of 128383 (max. 10000000)
 
