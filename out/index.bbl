@@ -1,4 +1,4 @@
-\begin{thebibliography}{38}
+\begin{thebibliography}{36}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -78,14 +78,6 @@ David~P. DiVincenzo.
 Edward Farhi, Jeffrey Goldstone, and Sam Gutmann.
 \newblock A quantum approximate optimization algorithm.
 \newblock arXiv:1411.4028, 2014.
-
-\bibitem[Feld et~al.(2019)Feld, Roch, Gabor, Seidel, Neukart, Galter, Mauerer,
-  and Linnhoff-Popien]{feld2019hybrid}
-Sebastian Feld, Christoph Roch, Thomas Gabor, Christian Seidel, Florian
-  Neukart, Isabella Galter, Wolfgang Mauerer, and Claudia Linnhoff-Popien.
-\newblock A hybrid solution method for the capacitated vehicle routing problem
-  using a quantum annealer.
-\newblock \emph{Frontiers in ICT}, 6:\penalty0 13, 2019.
 
 \bibitem[Feynman(1982)]{feynman1982simulating}
 Richard~P. Feynman.
@@ -235,14 +227,6 @@ Peter~W. Shor.
   factoring.
 \newblock \emph{Proceedings of the 35th Annual Symposium on Foundations of
   Computer Science}, pages 124--134, 1994.
-
-\bibitem[{The MathWorks, Inc.}(2026)]{mathworks2026cvrp}
-{The MathWorks, Inc.}
-\newblock Capacitated vehicle routing.
-\newblock Documentazione MATLAB,
-  \url{https://it.mathworks.com/help/matlab/math/quantum-capacitated-vehicle-routing.html},
-  2026.
-\newblock 24 clienti, capacit\`a 6\,000 unit\`a; QUBO risolto con ricerca tabu.
 
 \bibitem[{Universit\`a degli Studi di Padova}(2026)]{unipd2026lab}
 {Universit\`a degli Studi di Padova}.

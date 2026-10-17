@@ -12,4 +12,4 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces L'edificio del Quantum Computing Lab dell'Università di Padova il giorno dell'inaugurazione (2 marzo 2026). Fonte: Università di Padova.}}{25}{figure.3.4}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Il computer quantistico IQM a 5 qubit nel data center del Politecnico di Torino: al centro il criostato (il cilindro bianco), a sinistra il pannello del sistema di raffreddamento e a destra il rack dell'elettronica di controllo. Fonte: Politecnico di Torino.}}{27}{figure.3.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Schema dell'algoritmo di Grover su tre qubit. Il blocco oracolo + diffusione viene ripetuto circa $\frac {\pi }{4}\sqrt {N}$ volte prima della misura.}}{32}{figure.4.1}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schema dell'algoritmo di Grover su tre qubit. Il blocco oracolo + diffusione viene ripetuto circa $\frac {\pi }{4}\sqrt {N}$ volte prima della misura.}}{33}{figure.4.1}%

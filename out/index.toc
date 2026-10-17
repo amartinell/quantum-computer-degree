@@ -58,20 +58,19 @@
 \contentsline {section}{\numberline {4.1}Che cos'è un algoritmo quantistico}{31}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Gli algoritmi classici della computazione quantistica}{32}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Grover: cercare un ago nel pagliaio}{32}{subsection.4.2.1}%
+\contentsline {paragraph}{L'idea di fondo.}{32}{section*.14}%
+\contentsline {paragraph}{Un esempio con quattro scatole.}{32}{section*.15}%
 \contentsline {subsection}{\numberline {4.2.2}Shor: fattorizzare i numeri}{33}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}Gli algoritmi per le macchine di oggi}{33}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}L'idea ibrida}{33}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}L'idea ibrida}{34}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}VQE e QAOA}{34}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}L'annealing quantistico}{34}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}La forma QUBO}{34}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Un esempio concreto: i giri di consegna}{35}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Il problema}{35}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Dividere il problema in due}{36}{subsection.4.5.2}%
-\contentsline {paragraph}{Primo passo: formare i gruppi.}{36}{section*.14}%
-\contentsline {paragraph}{Secondo passo: ordinare ogni gruppo.}{36}{section*.15}%
-\contentsline {subsection}{\numberline {4.5.3}Il commesso viaggiatore in forma QUBO}{36}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Risolvere e verificare}{37}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Cosa aspettarsi davvero}{38}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Conclusioni del Capitolo}{39}{section.4.7}%
-\contentsline {chapter}{Bibliografia}{41}{section*.16}%
-\contentsline {chapter}{Ringraziamenti}{45}{chapter*.18}%
+\contentsline {paragraph}{Il paesaggio delle soluzioni.}{34}{section*.16}%
+\contentsline {paragraph}{Il trucco classico: scuotere.}{35}{section*.17}%
+\contentsline {paragraph}{Il trucco quantistico: attraversare le colline.}{35}{section*.18}%
+\contentsline {paragraph}{Come lavora la macchina.}{35}{section*.19}%
+\contentsline {section}{\numberline {4.4}La forma QUBO}{36}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Cosa aspettarsi davvero}{36}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Conclusioni del Capitolo}{37}{section.4.6}%
+\contentsline {chapter}{Bibliografia}{39}{section*.20}%
+\contentsline {chapter}{Ringraziamenti}{43}{chapter*.22}%
